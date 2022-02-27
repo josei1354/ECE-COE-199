@@ -30,8 +30,8 @@ def preproc_roi_output(aligned_img_gray, page_number):
 
 if __name__ == "__main__": 
 
-    file_used =  'samples/samplex2_out.png' #page1
-    page_number = 1
+    file_used =  'samples/samplex2_out.png' #page2
+    page_number = 2
     
     aligned_img_color = cv2.imread(file_used,cv2.IMREAD_COLOR)
     aligned_img_gray = cv2.imread(file_used,cv2.IMREAD_GRAYSCALE)
