@@ -20,11 +20,28 @@ def preproc_roi_output(aligned_img_gray, page_number):
         print("Created directory", new_path)
     except:
         print("Warning:", new_path, "directory already exists, overwriting files...")
-    cv2.imwrite("ROI_crops/homography_out.png",cv2.cvtColor(aligned_img_gray,cv2.COLOR_GRAY2BGR))
+    #cv2.imwrite("ROI_crops/homography_out.png",cv2.cvtColor(aligned_img_gray,cv2.COLOR_GRAY2BGR))
 
-    f = open("../" + "ROI_list_page" + str(page_number) + ".txt", "r")
-    print(f.read())
+    img = aligned_img_gray
 
+    dimension = img.shape
+
+    height = dimension[0]
+    width = dimension[1]
+    
+    f = open("ROI_list_page" + str(page_number) + ".txt", "r")
+    content = f.readlines()
+
+    for line in content:
+        data = line.split()
+        topleft_x = round(width * float(data[1]))
+        topleft_y = round(height * float(data[2]))
+        bottomright_x = round(width * float(data[3]))
+        bottomright_y = round(height * float(data[4]))
+
+        crop_img = img[topleft_y:bottomright_y, topleft_x:bottomright_x]
+        cv2.imwrite("ROI_crops/"+data[0]+".png", crop_img)
+    
     print("here")
     return True
 
