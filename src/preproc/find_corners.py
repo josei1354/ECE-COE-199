@@ -47,8 +47,8 @@ def preproc_filter_contours(contours):
         approx = cv2.approxPolyDP(cnt,epsilon,True)
         if len(approx) == 4:
             approx = preproc_sort_rect_points(approx)
-            if preproc_points_form_parallel(approx):
-                new_contours.append(np.array(approx))
+       #     if preproc_points_form_parallel(approx):
+            new_contours.append(np.array(approx))
     return new_contours
 
 # param
@@ -99,11 +99,11 @@ def preproc_find_four_markers(contours_list):
         #print(cnt[0])
         if( (cnt[0][0][0] + cnt[0][0][1]) < (topleft[0][0][0] + topleft[0][0][1]) ): #lowest x+y
             topleft = cnt
-        elif( (cnt[0][0][0] - cnt[0][0][1]) > (topright[0][0][0] - topright[0][0][1]) ): #highest x-y
+        if( (cnt[0][0][0] - cnt[0][0][1]) > (topright[0][0][0] - topright[0][0][1]) ): #highest x-y
             topright = cnt
-        elif( (cnt[0][0][0] + cnt[0][0][1]) > (bottomright[0][0][0] + bottomright[0][0][1]) ): #highest x+y
+        if( (cnt[0][0][0] + cnt[0][0][1]) > (bottomright[0][0][0] + bottomright[0][0][1]) ): #highest x+y
             bottomright = cnt
-        elif( (cnt[0][0][0] - cnt[0][0][1]) < (bottomleft[0][0][0] - bottomleft[0][0][1]) ): #lowest x-y
+        if( (cnt[0][0][0] - cnt[0][0][1]) < (bottomleft[0][0][0] - bottomleft[0][0][1]) ): #lowest x-y
             bottomleft = cnt
 
     return np.array([topleft, topright, bottomright, bottomleft])
