@@ -10,6 +10,7 @@ from math import sqrt
 def preproc_find_corners(orig_img_gray):
     contours = preproc_find_all_contours(orig_img_gray.copy())
     contours_filtered = preproc_filter_contours(contours)
+
     four_markers = preproc_find_four_markers(contours_filtered) # is an array of arrays
     
     topleft_corner = four_markers[0][0] #is a numpy array
@@ -109,7 +110,7 @@ def preproc_find_four_markers(contours_list):
     return np.array([topleft, topright, bottomright, bottomleft])
 
 if __name__ == "__main__":
-    filename = 'testp1.jpg'
+    filename = 'testdata/giap41.jpeg'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
     
