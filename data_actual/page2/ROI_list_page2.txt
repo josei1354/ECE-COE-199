@@ -1,3 +1,14 @@
-line1
-line2
-line3
+CourseInTheWards 0.016 0.012 0.986 0.158 
+PertinentLabFindings 0.016 0.139 0.986 0.289 
+SurgicalOperationDate 0.093 0.295 0.317 0.343 
+SurgicalOperationTime 0.093 0.346 0.245 0.392 
+SurgicalOperationTimeAM 0.226 0.363 0.275 0.396 
+SurgicalOperationTimePM 0.27 0.363 0.317 0.396 
+TypeOfAnesthesia 0.012 0.396 0.431 0.448 
+DischargeDate 0.125 0.452 0.352 0.5 
+DischargeTime 0.423 0.452 0.614 0.5 
+DischargeTimeAM 0.593 0.461 0.645 0.5 
+DischargeTimePM 0.639 0.461 0.69 0.5 
+FinalDiagnosis 0.04 0.518 0.99 0.606 
+ConditionOfDischarge 0.04 0.597 0.99 0.692 
+AttendingPhysician 0.294 0.676 0.796 0.73 
