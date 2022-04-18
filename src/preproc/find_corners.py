@@ -10,6 +10,7 @@ from math import sqrt
 def preproc_find_corners(orig_img_gray):
     contours = preproc_find_all_contours(orig_img_gray.copy())
     contours_filtered = preproc_filter_contours(contours)
+    #return contours_filtered
     four_markers = preproc_find_four_markers(contours_filtered) # is an array of arrays
     
     topleft_corner = four_markers[0][0] #is a numpy array
@@ -47,8 +48,8 @@ def preproc_filter_contours(contours):
         approx = cv2.approxPolyDP(cnt,epsilon,True)
         if len(approx) == 4:
             approx = preproc_sort_rect_points(approx)
-            if preproc_points_form_parallel(approx):
-                new_contours.append(np.array(approx))
+       #     if preproc_points_form_parallel(approx):
+            new_contours.append(np.array(approx))
     return new_contours
 
 # param
@@ -99,17 +100,17 @@ def preproc_find_four_markers(contours_list):
         #print(cnt[0])
         if( (cnt[0][0][0] + cnt[0][0][1]) < (topleft[0][0][0] + topleft[0][0][1]) ): #lowest x+y
             topleft = cnt
-        elif( (cnt[0][0][0] - cnt[0][0][1]) > (topright[0][0][0] - topright[0][0][1]) ): #highest x-y
+        if( (cnt[0][0][0] - cnt[0][0][1]) > (topright[0][0][0] - topright[0][0][1]) ): #highest x-y
             topright = cnt
-        elif( (cnt[0][0][0] + cnt[0][0][1]) > (bottomright[0][0][0] + bottomright[0][0][1]) ): #highest x+y
+        if( (cnt[0][0][0] + cnt[0][0][1]) > (bottomright[0][0][0] + bottomright[0][0][1]) ): #highest x+y
             bottomright = cnt
-        elif( (cnt[0][0][0] - cnt[0][0][1]) < (bottomleft[0][0][0] - bottomleft[0][0][1]) ): #lowest x-y
+        if( (cnt[0][0][0] - cnt[0][0][1]) < (bottomleft[0][0][0] - bottomleft[0][0][1]) ): #lowest x-y
             bottomleft = cnt
 
     return np.array([topleft, topright, bottomright, bottomleft])
 
 if __name__ == "__main__":
-    filename = 'testp1.jpg'
+    filename = 'samples/irisp2.jpg'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
     
