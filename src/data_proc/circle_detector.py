@@ -77,12 +77,13 @@ def encircle_get_largest_contour(contours):
         cnt = cv2.convexHull(cnt)
         curr_area = cv2.contourArea(cnt)
         if curr_area > largest_area:
+            largest_area = curr_area
             largest_cnt = cnt
     return largest_cnt
 
 
 if __name__ == "__main__":
-    filename = 'MSSC.png'
+    filename = 'samples/TimePM.png'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 

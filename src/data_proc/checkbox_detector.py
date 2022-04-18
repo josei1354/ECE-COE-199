@@ -46,14 +46,15 @@ def checkbox_find_all_contours(img_gray):
     return contours
 
 # param contours - a LIST of ARRAYS
-# return a LIST of ARRAYS
+# return a single contour
 def checkbox_get_largest_contour(contours):
     largest_area = 0
     
     for cnt in contours:
-        cnt = cv2.convexHull(cnt)
-        curr_area = cv2.contourArea(cnt)
-        if curr_area > largest_area:
+        x,y,w,h = cv2.boundingRect(cnt)
+        curr_area = w*h
+        if(curr_area) > largest_area:
+            largest_area = curr_area
             largest_cnt = cnt
     return largest_cnt
 
@@ -61,8 +62,8 @@ def checkbox_crop(img_binary,cnt):
     img_binary_copy = img_binary.copy()
 
     x,y,w,h = cv2.boundingRect(cnt)
-    LR_INDENT = 0.21 # set between 0 and 0.5
-    TB_INDENT = 0.21 # larger value = smaller rectangle
+    LR_INDENT = 0.25 # set between 0 and 0.5
+    TB_INDENT = 0.25 # larger value = smaller rectangle
 
     tl_y = int(y + h*(LR_INDENT))
     br_y = int(y + h*(1-LR_INDENT))
@@ -77,8 +78,7 @@ def checkbox_crop(img_binary,cnt):
     return img_crop, search_area_3d
 
 if __name__ == "__main__":
-    filename = 'SkinPreparationYes.png'
-    filename = 'BowelPreparationNo.png'
+    filename = 'samples/BowelPreparationNo.png'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
