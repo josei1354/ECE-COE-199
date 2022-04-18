@@ -2,13 +2,18 @@ import cv2
 import numpy as np
 import os
 import sys
+import json
 
 curr_dir = os.getcwd()
 path_to_append = os.path.join(curr_dir,"preproc")
 
 sys.path.insert(0,path_to_append)
 
+path_to_append_1 = os.path.join(curr_dir,"data_proc")
+sys.path.insert(0,path_to_append_1)
+
 from preproc_main import *
+from dataproc_main import *
 
 if __name__ == "__main__":
     import argparse
@@ -59,3 +64,11 @@ if __name__ == "__main__":
     #at this point. filename is just "filename.png" and that file is in the same working directory
 
     preproc_main(filename, page_number)
+
+    final_output_dict = dataproc_main(page_number)
+
+    print("Writing to JSON...")
+    with open("final_output.json", "w") as outfile:
+        json.dump(final_output_dict, outfile, indent=4)
+    print("Complete")
+    

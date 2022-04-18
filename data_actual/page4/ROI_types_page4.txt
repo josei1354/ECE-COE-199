@@ -1,0 +1,16 @@
+TimeAM EN 0.1 0.9
+TimePM EN 0.1 0.9
+MSSA EN 0.1 0.9
+MSSB EN 0.1 0.9
+MSSC EN 0.1 0.9
+MSSD EN 0.1 0.9
+ConsentYes CB
+ConsentNo CB
+OralCareYes CB 
+OralCareNo CB 
+SkinPreparationYes CB
+SkinPreparationNo CB
+BowelPreparationYes CB
+BowelPreparationNo CB
+IntravenousYes CB
+IntravenousNo CB
