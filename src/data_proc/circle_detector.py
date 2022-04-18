@@ -18,7 +18,7 @@ def encircle_main_detec(img_gray, return_search_area, min_area, max_area):
     img_gray = cv2.cvtColor(img_gray,cv2.COLOR_GRAY2RGB)
     cv2.drawContours(img_gray, [largest_cnt], -1, (0,255,0), 1)
 
-    has_circle = encircle_check_area(largest_cnt, min_area, max_area, orig_height*orig_width)
+    has_circle = encircle_check_area(largest_cnt, min_area, max_area, orig_height*orig_width, return_search_area)
 
     if(return_search_area):
         return has_circle, img_gray
@@ -59,10 +59,11 @@ def encircle_filter_contours_by_center(contours, orig_height, orig_width):
 
     return contours_filtered
 
-def encircle_check_area(cnt, min_area, max_area, orig_area):
+def encircle_check_area(cnt, min_area, max_area, orig_area, print_ratio):
     cnt_area = cv2.contourArea(cnt)
     area_ratio = cnt_area / orig_area
-    print("Ratio: ",area_ratio)
+    if(print_ratio):
+        print("Ratio: ",area_ratio)
     if((max_area < area_ratio) or (min_area > area_ratio)):
         return False
     else:
@@ -83,7 +84,7 @@ def encircle_get_largest_contour(contours):
 
 
 if __name__ == "__main__":
-    filename = 'samples/TimePM.png'
+    filename = 'samples/TimeAM.png'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
