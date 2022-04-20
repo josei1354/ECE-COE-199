@@ -44,8 +44,8 @@ if __name__ == "__main__":
     if filename[:11] == "data_actual":
         new_dir = os.path.join(new_dir, "data_actual")
         filename = filename[12:]
-        pagefolder = filename[:5]
-        new_dir = os.path.join(new_dir, pagefolder)
+        page_folder = filename[:5]
+        new_dir = os.path.join(new_dir, page_folder)
         filename = filename[6:]
         os.chdir(new_dir)
     #print(filename)
@@ -54,7 +54,8 @@ if __name__ == "__main__":
 
     if(filename.find("/") > 0):
         temp = filename.find("/")
-        new_dir = os.path.join(new_dir,filename[:temp])
+        data_number = filename[:temp]
+        new_dir = os.path.join(new_dir,data_number)
         os.chdir(new_dir)
         filename = filename[(temp+1):]
 
@@ -63,12 +64,16 @@ if __name__ == "__main__":
 
     #at this point. filename is just "filename.png" and that file is in the same working directory
 
+    #print("Current Dir: ", page_folder, data_number)
+    
     preproc_main(filename, page_number)
 
     final_output_dict = dataproc_main(page_number)
 
-    print("Writing to JSON...")
-    with open("final_output.json", "w") as outfile:
+    json_filename = "output_" + page_folder + "_" + data_number + ".json"
+    print("Writing to", json_filename)
+    
+    with open(json_filename, "w") as outfile:
         json.dump(final_output_dict, outfile, indent=4)
     print("Complete")
     
