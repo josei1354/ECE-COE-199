@@ -84,12 +84,12 @@ def encircle_get_largest_contour(contours):
 
 
 if __name__ == "__main__":
-    filename = 'samples/AdmissionTimeAM.png'
+    filename = 'samples/AdmissionTimePM.png'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
     return_largest_cnt = True
-    has_circle, img_search = encircle_main_detec(orig_img_gray, return_largest_cnt, 0.1, 1)
+    has_circle, img_search = encircle_main_detec(orig_img_gray, return_largest_cnt, 0.25, 0.8)
     print(has_circle)
     
     cv2.imshow('Warped', img_search)
