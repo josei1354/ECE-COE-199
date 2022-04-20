@@ -38,10 +38,10 @@ JewelryRemovedNo CB
 JewelryRemovedYes CB
 LastName TX
 MiddleInitial TX
-MSSA EN 0.1 0.9
-MSSB EN 0.1 0.9
-MSSC EN 0.1 0.9
-MSSD EN 0.1 0.9
+MSSA EN 0.12 0.8
+MSSB EN 0.12 0.8
+MSSC EN 0.12 0.8
+MSSD EN 0.12 0.8
 NailPolishRemovedNo CB
 NailPolishRemovedYes CB
 NoUnitsBloodXMatched TX
@@ -85,8 +85,8 @@ Surgeon TX
 TempPostMed TX
 TempPreMed TX
 Time TX
-TimeAM EN 0.1 0.9
-TimePM EN 0.1 0.9
+TimeAM EN 0.17 0.8
+TimePM EN 0.17 0.8
 WardAndBedNo TX
 XRAyNo TX
 XRayPlateNo CB

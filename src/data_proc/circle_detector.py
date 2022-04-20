@@ -84,7 +84,7 @@ def encircle_get_largest_contour(contours):
 
 
 if __name__ == "__main__":
-    filename = 'samples/TimePM.png'
+    filename = 'samples/AdmissionTimeAM.png'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 

@@ -2,8 +2,8 @@ Abdomen TX
 AccreditationNo TX
 AdmissionDate TX
 AdmissionTime TX
-AdmissionTimeAM EN 0.1 0.9
-AdmissionTimePM EN 0.1 0.9
+AdmissionTimeAM EN 0.15 0.8
+AdmissionTimePM EN 0.15 0.8
 AdmittingDiagnosis TX
 Age TX
 Barangay TX
