@@ -20,7 +20,11 @@ def dataproc_main(page_number):
     content = f.readlines()
 
     for line in content:
-        data = line.split()
+        data = line.strip().split()
+        #print(data)
+        if(len(data) == 0):
+            continue
+        
         roi_img = cv2.imread("ROI_crops/"+data[0]+".png",cv2.IMREAD_GRAYSCALE)
         
         if(data[1] == "EN"):
@@ -31,6 +35,8 @@ def dataproc_main(page_number):
             output_dict[data[0]] = ["Checkbox",has_check]
         elif(data[1] == "TX"):
             output_dict[data[0]] = ["Text", "None Yet"]
+        else:
+            print("Error in ROI_types_page.txt")
 
     f.close()
 

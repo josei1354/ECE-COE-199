@@ -1,0 +1,14 @@
+AttendingPhysician TX
+ConditionOfDischarge TX
+CourseInTheWards TX
+DischargeDate TX
+DischargeTime TX
+DischargeTimeAM EN 0.1 0.9
+DischargeTimePM EN 0.1 0.9
+FinalDiagnosis TX
+PertinentLabFindings TX
+SurgicalOperationDate TX
+SurgicalOperationTime TX
+SurgicalOperationTimeAM EN 0.1 0.9
+SurgicalOperationTimePM EN 0.1 0.9
+TypeOfAnesthesia TX

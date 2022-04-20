@@ -1,0 +1,31 @@
+Abdomen TX
+AccreditationNo TX
+AdmissionDate TX
+AdmissionTime TX
+AdmissionTimeAM EN 0.1 0.9
+AdmissionTimePM EN 0.1 0.9
+AdmittingDiagnosis TX
+Age TX
+Barangay TX
+BP TX
+BriefHistory TX
+CaseNumber TX
+ChiefComplaint TX
+CVS TX
+DateReceived TX
+Female CB
+FirstName TX
+GU TX
+HEENT TX
+HR TX
+LastName TX
+Male CB
+MiddleName TX
+Municipality TX
+NameOfHospital TX
+NeuroExamination TX
+Province TX
+ReasonOfAdmission TX
+RR TX
+Temp TX
+ZipCode TX
