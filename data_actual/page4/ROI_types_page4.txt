@@ -9,6 +9,8 @@ AntibioticOrdered2Yes CB
 AntibioticOrdered3 TX
 AntibioticOrdered3No CB
 AntibioticOrdered3Yes CB
+BloodOrderedNo CB
+BloodOrderedYes CB
 BloodType TX
 BodyWeight TX
 BowelPreparationNo CB
@@ -22,8 +24,8 @@ DateOfOperation TX
 Diagnosis TX
 Elective CB
 Emergency CB
-FalseTeethRemovedNone CB
 FalseTeethRemovedNo CB
+FalseTeethRemovedNone CB
 FalseTeethRemovedYes CB
 FirstName TX
 HeadNurse TX

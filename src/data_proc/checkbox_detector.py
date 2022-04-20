@@ -78,7 +78,7 @@ def checkbox_crop(img_binary,cnt):
     return img_crop, search_area_3d
 
 if __name__ == "__main__":
-    filename = 'samples/Female.png'
+    filename = 'samples/PreAnesthetic2Yes.png'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
