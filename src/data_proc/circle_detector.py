@@ -3,9 +3,9 @@ import cv2
 from math import sqrt
 
 # param img_gray - graysscale numpy 2D image array
-#    return_search_area - bool, set to true only for debugging
+#    debug_mode - bool, set to true only for debugging
 # return True or False, numpy_image_array
-def encircle_main_detec(img_gray, return_search_area, min_area, max_area):
+def encircle_main_detec(img_gray, debug_mode, min_area, max_area):
     img_gray = img_gray.copy()
     contours_list = encircle_find_all_contours(img_gray)
 
@@ -18,9 +18,9 @@ def encircle_main_detec(img_gray, return_search_area, min_area, max_area):
     img_gray = cv2.cvtColor(img_gray,cv2.COLOR_GRAY2RGB)
     cv2.drawContours(img_gray, [largest_cnt], -1, (0,255,0), 1)
 
-    has_circle = encircle_check_area(largest_cnt, min_area, max_area, orig_height*orig_width, return_search_area)
+    has_circle = encircle_check_area(largest_cnt, min_area, max_area, orig_height*orig_width, debug_mode)
 
-    if(return_search_area):
+    if(debug_mode):
         return has_circle, img_gray
     else:
         return has_circle
@@ -88,8 +88,8 @@ if __name__ == "__main__":
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
-    return_largest_cnt = True
-    has_circle, img_search = encircle_main_detec(orig_img_gray, return_largest_cnt, 0.25, 0.8)
+    debug_mode = True
+    has_circle, img_search = encircle_main_detec(orig_img_gray,debug_mode, 0.25, 0.8)
     print(has_circle)
     
     cv2.imshow('Warped', img_search)

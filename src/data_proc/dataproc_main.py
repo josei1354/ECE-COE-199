@@ -1,8 +1,10 @@
 import cv2
 import numpy as np
 import os
+from pytess_detector import *
 from checkbox_detector import *
 from circle_detector import *
+import pytesseract
 
 # param
 #   filename is the path of the originally scanned image
@@ -10,7 +12,8 @@ from circle_detector import *
 # return
 #   return dict of ROIs
 def dataproc_main(page_number):
-    #print(page_number)
+
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
     print("Processing ROIs...")
 
@@ -24,17 +27,23 @@ def dataproc_main(page_number):
         #print(data)
         if(len(data) == 0):
             continue
+
+        image_path = data[0] + ".png"
+        debug_mode=False
         
-        roi_img = cv2.imread("ROI_crops/"+data[0]+".png",cv2.IMREAD_GRAYSCALE)
+        roi_img = cv2.imread("ROI_crops/"+image_path,cv2.IMREAD_GRAYSCALE)
         
         if(data[1] == "EN"):
-            has_circle = encircle_main_detec(roi_img, False, float(data[2]), float(data[3]))
+            has_circle = encircle_main_detec(roi_img, debug_mode, float(data[2]), float(data[3]))
             output_dict[data[0]] = ["Encirclement",has_circle]
         elif(data[1] == "CB"):
-            has_check = checkbox_main_detec(roi_img, False)
+            has_check = checkbox_main_detec(roi_img, debug_mode)
             output_dict[data[0]] = ["Checkbox",has_check]
         elif(data[1] == "TX"):
-            output_dict[data[0]] = ["Text", "None Yet"]
+            output_dict[data[0]] = ["TX", "None Yet"]
+        elif(data[1] == "TESS"):
+            pytess_out = pytess_detec(roi_img, digits_only=True, debug_mode=False)
+            output_dict[data[0]] = ["TESS", pytess_out]
         else:
             print("Error in ROI_types_page.txt")
 

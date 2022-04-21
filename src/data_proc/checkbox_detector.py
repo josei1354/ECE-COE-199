@@ -4,7 +4,7 @@ import cv2
 # param img_gray - graysscale numpy 2D image array
 #    return_search_area - bool, set to true only for debugging
 # return True or False, numpy_image_array
-def checkbox_main_detec(img_gray, return_search_area):
+def checkbox_main_detec(img_gray, debug_mode):
     img_gray = img_gray.copy()
     contours_list = checkbox_find_all_contours(img_gray)
     largest_cnt = checkbox_get_largest_contour(contours_list)
@@ -15,7 +15,7 @@ def checkbox_main_detec(img_gray, return_search_area):
 
     has_check = checkbox_img_has_black(img_crop)
 
-    if(return_search_area):
+    if(debug_mode):
         return has_check, search_area_3d
     else:
         return has_check
@@ -82,8 +82,7 @@ if __name__ == "__main__":
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
-    return_search_area = True
-    is_checked, img_search = checkbox_main_detec(orig_img_gray, return_search_area)
+    is_checked, img_search = checkbox_main_detec(orig_img_gray, debug_mode=True)
 
     print(is_checked)
     cv2.imshow('Warped', img_search)
