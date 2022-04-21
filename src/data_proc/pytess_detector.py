@@ -21,6 +21,8 @@ def pytess_detec(img_gray, digits_only, debug_mode):
     return string_out.strip()
 
 if __name__ == "__main__":
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
     img = cv2.imread("samples/NurseIDP1111.png",cv2.IMREAD_GRAYSCALE)
     digits_only = True
     print(pytess_detec(img, digits_only, debug_mode=True))
