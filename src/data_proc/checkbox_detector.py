@@ -62,8 +62,8 @@ def checkbox_crop(img_binary,cnt):
     img_binary_copy = img_binary.copy()
 
     x,y,w,h = cv2.boundingRect(cnt)
-    LR_INDENT = 0.25 # set between 0 and 0.5
-    TB_INDENT = 0.25 # larger value = smaller rectangle
+    LR_INDENT = 0.30 # set between 0 and 0.5
+    TB_INDENT = 0.30 # larger value = smaller rectangle
 
     tl_y = int(y + h*(LR_INDENT))
     br_y = int(y + h*(1-LR_INDENT))
