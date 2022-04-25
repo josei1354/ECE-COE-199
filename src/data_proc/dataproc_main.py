@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 import os
-from pytess_detector import *
+#from pytess_detector import *
 from checkbox_detector import *
 from circle_detector import *
-import pytesseract
+#import pytesseract
 
 # param
 #   filename is the path of the originally scanned image
@@ -13,7 +13,7 @@ import pytesseract
 #   return dict of ROIs
 def dataproc_main(page_number):
 
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+#    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
     print("Processing ROIs...")
 
@@ -42,8 +42,8 @@ def dataproc_main(page_number):
         elif(data[1] == "TX"):
             output_dict[data[0]] = ["TX", "None Yet"]
         elif(data[1] == "TESS"):
-            pytess_out = pytess_detec(roi_img, digits_only=True, debug_mode=False)
-            output_dict[data[0]] = ["TESS", pytess_out]
+#            pytess_out = pytess_detec(roi_img, digits_only=True, debug_mode=False)
+            output_dict[data[0]] = ["TESS", "None Yet"]
         else:
             print("Error in ROI_types_page.txt")
 

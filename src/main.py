@@ -14,6 +14,7 @@ sys.path.insert(0,path_to_append_1)
 
 from preproc_main import *
 from dataproc_main import *
+from error_counter import *
 
 if __name__ == "__main__":
     import argparse
@@ -70,10 +71,23 @@ if __name__ == "__main__":
 
     final_output_dict = dataproc_main(page_number)
 
-    json_filename = "output_" + page_folder + "_" + data_number + ".json"
-    print("Writing to", json_filename)
+    output_json_filename = "output_" + page_folder + data_number + ".json"
+    print("Writing to", output_json_filename)
     
-    with open(json_filename, "w") as outfile:
+    with open(output_json_filename, "w") as outfile:
         json.dump(final_output_dict, outfile, indent=4)
     print("Complete")
-    
+
+    grouthtruth_filename = "truth_" + page_folder + data_number + ".json"
+
+    try:
+        with open(grouthtruth_filename, 'r') as json_file:
+            truth_dict = json.load(json_file)
+
+        checkbox_counts, encirclement_counts = main_solve_error_rate(final_output_dict,truth_dict)
+
+        print("\nCheckbox:\n", checkbox_counts)
+        print("\nEncirclement_counts:\n", encirclement_counts)
+
+    except:
+        print("File ", grouthtruth_filename, " does not exist")

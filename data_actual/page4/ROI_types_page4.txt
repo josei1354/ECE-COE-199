@@ -35,8 +35,8 @@ IDWristletNo CB
 IDWristletYes CB
 IntravenousNo CB
 IntravenousYes CB
-JewelryRemovedNone CB
 JewelryRemovedNo CB
+JewelryRemovedNone CB
 JewelryRemovedYes CB
 LastName TX
 MiddleInitial TX
