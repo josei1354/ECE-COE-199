@@ -1,0 +1,58 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        "None Yet"
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        "None Yet"
+    ],
+    "CourseInTheWards": [
+        "TX",
+        "None Yet"
+    ],
+    "DischargeDate": [
+        "TX",
+        "None Yet"
+    ],
+    "DischargeTime": [
+        "TX",
+        "None Yet"
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        "None Yet"
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        "None Yet"
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        "None Yet"
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        "None Yet"
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        true
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        "None Yet"
+    ]
+}

@@ -92,7 +92,6 @@ def preprocess(img, input_size):
 
     def imread(path):
         img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
-        T, img = cv2.threshold(img,0,255,cv2.THRESH_OTSU)
         u, i = np.unique(np.array(img).flatten(), return_inverse=True)
         background = int(u[np.argmax(np.bincount(i))])
         return img, background

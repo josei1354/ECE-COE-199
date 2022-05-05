@@ -4,6 +4,7 @@ import os
 #from pytess_detector import *
 from checkbox_detector import *
 from circle_detector import *
+from PSG import *
 #import pytesseract
 
 # param
@@ -32,6 +33,8 @@ def dataproc_main(page_number):
         debug_mode=False
         
         roi_img = cv2.imread("ROI_crops/"+image_path,cv2.IMREAD_GRAYSCALE)
+        if(roi_img is None):
+            continue
         
         if(data[1] == "EN"):
             has_circle = encircle_main_detec(roi_img, debug_mode, float(data[2]), float(data[3]))
@@ -40,7 +43,16 @@ def dataproc_main(page_number):
             has_check = checkbox_main_detec(roi_img, debug_mode)
             output_dict[data[0]] = ["Checkbox",has_check]
         elif(data[1] == "TX"):
+            img_crops = psg_crop_all(roi_img)
+            img_crops = psg_binarize_all(img_crops)
+            num_img_grays = round(len(img_crops)/2)
+
+            for i in range(num_img_grays):
+                cv2.imwrite("ROI_crops/"+data[0]+str(i+1)+".png", img_crops[i])
+                cv2.imwrite("ROI_crops/"+data[0]+str(i+1)+"b"+".png", img_crops[i+num_img_grays])
+            
             output_dict[data[0]] = ["TX", "None Yet"]
+
         elif(data[1] == "TESS"):
 #            pytess_out = pytess_detec(roi_img, digits_only=True, debug_mode=False)
             output_dict[data[0]] = ["TESS", "None Yet"]

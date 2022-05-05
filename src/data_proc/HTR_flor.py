@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     archi = "flor"
     target_path = "train_weights/flor_checkpoint_weights.hdf5"
-    image_path = "samples/NurseIDP1111.png"
+    image_path = "samples3/ReasonOfAdmission3b.png"
 
     input_size = (1024, 128, 1)
     max_text_length = 128
@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     img = pp.preprocess(image_path, input_size=input_size)
 
-    cv2.imwrite("samples/HTROut.png", img)
+    cv2.imwrite("samples2/HTROut.png", img)
 
     print("Hello3")
     
