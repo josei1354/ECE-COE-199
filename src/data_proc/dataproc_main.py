@@ -43,7 +43,11 @@ def dataproc_main(page_number):
             has_check = checkbox_main_detec(roi_img, debug_mode)
             output_dict[data[0]] = ["Checkbox",has_check]
         elif(data[1] == "TX"):
-            img_crops = psg_crop_all(roi_img)
+            # to complete
+            # from data[2] onwards
+            params = [] 
+            
+            img_crops = psg_crop_all(roi_img, params)
             img_crops = psg_binarize_all(img_crops)
             num_img_grays = round(len(img_crops)/2)
 

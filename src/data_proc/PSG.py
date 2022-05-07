@@ -1,6 +1,25 @@
 import numpy as np
 import cv2
 
+# boundRect is a LIST of TUPLES (tl_x, tl_y, width, height)
+# orig_h, orig_w are height and width of original ROI
+# params is taken from ROI_types.txt
+# 
+# return boundRect with the same structure but less possibly items
+def psg_filter_labels(boundRect, orig_h, orig_w, params=[]):
+    new_boundRect = boundRect.copy()
+    #complete the function
+    #
+    #
+    #
+    #
+    #
+    #
+    #
+    #
+    
+    return new_boundRect
+
 def psg_binarize_all(img_crops):
     number_of_images = len(img_crops)
     for i in range(number_of_images):
@@ -23,10 +42,13 @@ def psg_binarize_all(img_crops):
 
     return img_crops
 
-def psg_crop_all(img_gray):
+# params is a list taken from the ROI_types
+def psg_crop_all(img_gray, params):
     orig_h, orig_w = img_gray.shape
     boundRect = psg_get_bound_boxes(img_gray)
     boundRect = psg_segment_all(boundRect, orig_h, orig_w)
+
+    boundRect = psg_filter_labels(boundRect, orig_h, orig_w, params)
 
     img_crops = []
 
@@ -176,7 +198,9 @@ if __name__ == '__main__':
 
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    img_crops = psg_crop_all(img_gray)
+    params = []
+
+    img_crops = psg_crop_all(img_gray, params)
 
     #orig_h, orig_w = img_gray.shape
     #boundRect = psg_get_bound_boxes(img_gray)
