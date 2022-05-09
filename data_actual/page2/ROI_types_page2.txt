@@ -1,14 +1,14 @@
-AttendingPhysician TX
-ConditionOfDischarge TX
-CourseInTheWards TX
-DischargeDate TX
-DischargeTime TX
+AttendingPhysician TX 0.026 0.988
+ConditionOfDischarge TX 0.237 0.34
+CourseInTheWards TX 0.204 0.176
+DischargeDate TX 0.034 0.775
+DischargeTime TX 0.041 1
 DischargeTimeAM EN 0.15 0.8
 DischargeTimePM EN 0.15 0.8
-FinalDiagnosis TX
-PertinentLabFindings TX
-SurgicalOperationDate TX
-SurgicalOperationTime TX
+FinalDiagnosis TX 0.175 0.3
+PertinentLabFindings TX 0.813 0.212
+SurgicalOperationDate TX 0.467 0.141
+SurgicalOperationTime TX 1 0.206
 SurgicalOperationTimeAM EN 0.15 0.8
 SurgicalOperationTimePM EN 0.15 0.8
-TypeOfAnesthesia TX
+TypeOfAnesthesia TX 0.405 0.506

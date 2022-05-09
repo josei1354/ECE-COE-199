@@ -5,6 +5,12 @@ import os
 from checkbox_detector import *
 from circle_detector import *
 from PSG import *
+from HTR_flor import *
+
+from data import preproc as pp, evaluation
+from data.generator import DataGenerator, Tokenizer
+from network.model import HTRModel
+
 #import pytesseract
 
 # param
@@ -45,8 +51,10 @@ def dataproc_main(page_number):
         elif(data[1] == "TX"):
             # to complete
             # from data[2] onwards
-            params = [] 
-            
+            params = [float(data[3]), float(data[2])]
+
+            texts = []
+
             img_crops = psg_crop_all(roi_img, params)
             img_crops = psg_binarize_all(img_crops)
             num_img_grays = round(len(img_crops)/2)
@@ -54,8 +62,11 @@ def dataproc_main(page_number):
             for i in range(num_img_grays):
                 cv2.imwrite("ROI_crops/"+data[0]+str(i+1)+".png", img_crops[i])
                 cv2.imwrite("ROI_crops/"+data[0]+str(i+1)+"b"+".png", img_crops[i+num_img_grays])
-            
-            output_dict[data[0]] = ["TX", "None Yet"]
+                #cv2.imshow("Image", cv2.imread("ROI_crops/"+data[0]+str(i+1)+"b"+".png"))
+                text = HTR("ROI_crops/" + data[0] + str(i + 1)+ "b" + ".png")
+                texts.append(text)
+
+            output_dict[data[0]] = ["TX", texts]
 
         elif(data[1] == "TESS"):
 #            pytess_out = pytess_detec(roi_img, digits_only=True, debug_mode=False)
@@ -66,7 +77,7 @@ def dataproc_main(page_number):
     f.close()
 
     print("Processing Complete")
-    
+    print(output_dict)
     return output_dict
             
 

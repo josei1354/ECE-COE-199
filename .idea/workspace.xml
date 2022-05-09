@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc51c8a8-1930-4094-a7dd-2efa5b681b76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/data_proc/HTR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_actual/page1/ROI_types_page1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_actual/page1/ROI_types_page1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_actual/page2/ROI_types_page2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_actual/page2/ROI_types_page2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_actual/page3/ROI_types_page3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_actual/page3/ROI_types_page3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_actual/page4/ROI_types_page4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data_actual/page4/ROI_types_page4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_proc/HTR_flor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_proc/HTR_flor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_proc/PSG.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_proc/PSG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_proc/dataproc_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_proc/dataproc_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_proc/samples2/HTROut.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_proc/samples2/HTROut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/Abdomen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/AccreditationNo..png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/AdmissionDate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/AdmissionTime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/AdmissionTimeAM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/AdmissionTimePM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/AdmittingDiagnosis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/Age.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/BP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/Baranggay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/BriefHistory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/CVS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/CaseNumber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/ChiefComplaint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/DateReceived.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/Female.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/FirstName.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/FirstName.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/GU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/HEENT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/HR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/LastName.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/LastName.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/Male.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/MiddleName.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/Municipality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/NameOfHospital.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/NeuroExamination.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/Province.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/RR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/ReasonOfAdmission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/Temp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/blank_forms/ROI_crops/ZipCode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preproc/preproc_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preproc/preproc_main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="286t8Pogx9Nc7jgx3dhI8GYSQoV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HTR_flor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ECE-COE-199" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_proc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_proc/HTR_flor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc51c8a8-1930-4094-a7dd-2efa5b681b76" name="Changes" comment="" />
+      <created>1650548703072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650548703072</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

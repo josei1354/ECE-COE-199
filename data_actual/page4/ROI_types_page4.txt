@@ -1,36 +1,36 @@
 AllGarmentsRemovedNo CB
 AllGarmentsRemovedYes CB
-AntibioticOrdered1 TX
+AntibioticOrdered1 TX 0.44 0.146
 AntibioticOrdered1No CB
 AntibioticOrdered1Yes CB
-AntibioticOrdered2 TX
+AntibioticOrdered2 TX 0	0
 AntibioticOrdered2No CB
 AntibioticOrdered2Yes CB
-AntibioticOrdered3 TX
+AntibioticOrdered3 TX 0	0
 AntibioticOrdered3No CB
 AntibioticOrdered3Yes CB
 BloodOrderedNo CB
 BloodOrderedYes CB
-BloodType TX
-BodyWeight TX
+BloodType TX 0 0
+BodyWeight TX 0 0
 BowelPreparationNo CB
 BowelPreparationYes CB
-BPPostMed TX
-BPPreMed TX
-CaseNo TX
+BPPostMed TX 0 0
+BPPreMed TX 0 0
+CaseNo TX 0 0
 ConsentNo CB
 ConsentYes CB
-DateOfOperation TX
-Diagnosis TX
+DateOfOperation TX 0 0
+Diagnosis TX 0 0
 Elective CB
 Emergency CB
 FalseTeethRemovedNo CB
 FalseTeethRemovedNone CB
 FalseTeethRemovedYes CB
-FirstName TX
-HeadNurse TX
-HRPostMed TX
-HRPreMed TX
+FirstName TX 1 0.102
+HeadNurse TX 1 0.178
+HRPostMed TX 1 0.244
+HRPreMed TX 0 0
 IDWristletNo CB
 IDWristletYes CB
 IntravenousNo CB
@@ -38,59 +38,59 @@ IntravenousYes CB
 JewelryRemovedNo CB
 JewelryRemovedNone CB
 JewelryRemovedYes CB
-LastName TX
-MiddleInitial TX
+LastName TX 0 0
+MiddleInitial TX 1 0.113
 MSSA EN 0.12 0.8
 MSSB EN 0.12 0.8
 MSSC EN 0.12 0.8
 MSSD EN 0.12 0.8
 NailPolishRemovedNo CB
 NailPolishRemovedYes CB
-NoUnitsBloodXMatched TX
-NoUnitsFreshBlood TX
-NoUnitsRBC TX
-NoUnitsRBCXMatched TX
-NurseInChare TX
-Operation TX
-OralCareNo CB
+NoUnitsBloodXMatched TX 0 0
+NoUnitsFreshBlood TX 0 0
+NoUnitsRBC TX 0 0
+NoUnitsRBCXMatched TX 0 0
+NurseInChare TX 0 0
+Operation TX 0 0
+OralCareNo CB 
 OralCareYes CB
-ORNeedSent TX
-PreAnesthetic1 TX
+ORNeedSent TX 0 0
+PreAnesthetic1 TX 0 0
 PreAnesthetic1No CB
 PreAnesthetic1Yes CB
-PreAnesthetic2 TX
+PreAnesthetic2 TX 0 0
 PreAnesthetic2No CB
 PreAnesthetic2Yes CB
-PreAnesthetic3 TX
+PreAnesthetic3 TX 0 0
 PreAnesthetic3No CB
 PreAnesthetic3Yes CB
-PreAnestheticTime1 TX
-PreAnestheticTime2 TX
-PreAnesthetic1Time3 TX
-Remarks TX
-ResidentInCharge TX
-RRPostMed TX
-RRPreMed TX
-SerialNoBloodXMatched TX
-SerialNoFreshBlood TX
-SerialNoRBC TX
-SerialNoRBCXMatched TX
-Service TX
+PreAnestheticTime1 TX 1 0.154
+PreAnestheticTime2 TX 0 0
+PreAnesthetic1Time3 TX 0 0
+Remarks TX 0 0
+ResidentInCharge TX 0 0
+RRPostMed TX 0 0
+RRPreMed TX 0 0
+SerialNoBloodXMatched TX 0 0
+SerialNoFreshBlood TX 0 0
+SerialNoRBC TX 0 0
+SerialNoRBCXMatched TX 0 0
+Service TX 0 0
 SideRailsAppliedNo CB
 SideRailsAppliedYes CB
 SkinPreparationNo CB
 SkinPreparationYes CB
-SkinTest1 TX
-SkinTest2 TX
-SkinTest3 TX
-Surgeon TX
-TempPostMed TX
-TempPreMed TX
-Time TX
+SkinTest1 TX 1 0.205
+SkinTest2 TX 0 0
+SkinTest3 TX 0 0
+Surgeon TX 0 0
+TempPostMed TX 0 0
+TempPreMed TX 0 0
+Time TX 0 0
 TimeAM EN 0.17 0.8
 TimePM EN 0.17 0.8
-WardAndBedNo TX
-XRAyNo TX
+WardAndBedNo TX 0 0
+XRAyNo TX 0 0
 XRayPlateNo CB
 XRayPlateNone CB
 XRayPlateYes CB

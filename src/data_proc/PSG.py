@@ -7,17 +7,18 @@ import cv2
 # 
 # return boundRect with the same structure but less possibly items
 def psg_filter_labels(boundRect, orig_h, orig_w, params=[]):
-    new_boundRect = boundRect.copy()
-    #complete the function
-    #
-    #
-    #
-    #
-    #
-    #
-    #
-    #
-    
+    new_boundRect = []
+    bot_rect_w = orig_w * params[1]
+    bot_rect_h = orig_h * params[0]
+
+    #print("Width and Height: ", bot_rect_w, bot_rect_h)
+
+    for rect in boundRect:
+        if rect[0] + rect[2] <= bot_rect_w and rect[1] + rect[3] <= bot_rect_h:
+            continue
+        else:
+            new_boundRect.append(rect)
+
     return new_boundRect
 
 def psg_binarize_all(img_crops):
@@ -48,12 +49,17 @@ def psg_crop_all(img_gray, params):
     boundRect = psg_get_bound_boxes(img_gray)
     boundRect = psg_segment_all(boundRect, orig_h, orig_w)
 
+    #print("All bounds:")
+    #for rect in boundRect:
+    #    print(rect[1], rect[1]+rect[3], rect[0], rect[0]+rect[2])
+
     boundRect = psg_filter_labels(boundRect, orig_h, orig_w, params)
 
     img_crops = []
 
     for rect in boundRect:
         img_crops.append(img_gray[rect[1]:rect[1]+rect[3],rect[0]:rect[0]+rect[2]])
+        #print(rect[1], rect[1]+rect[3], rect[0], rect[0]+rect[2])
 
     return img_crops
 

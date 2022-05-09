@@ -5,6 +5,7 @@ from find_corners import *
 from homography_align import *
 from roi_cropping import *
 
+
 # param
 #   filename is the path of the originally scanned image
 #   page_number is 1,2,3, or 4
