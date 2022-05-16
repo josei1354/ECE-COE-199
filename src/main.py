@@ -2,13 +2,19 @@ import cv2
 import numpy as np
 import os
 import sys
+import json
 
 curr_dir = os.getcwd()
 path_to_append = os.path.join(curr_dir,"preproc")
 
 sys.path.insert(0,path_to_append)
 
+path_to_append_1 = os.path.join(curr_dir,"data_proc")
+sys.path.insert(0,path_to_append_1)
+
 from preproc_main import *
+from dataproc_main import *
+from error_counter import *
 
 if __name__ == "__main__":
     import argparse
@@ -39,8 +45,8 @@ if __name__ == "__main__":
     if filename[:11] == "data_actual":
         new_dir = os.path.join(new_dir, "data_actual")
         filename = filename[12:]
-        pagefolder = filename[:5]
-        new_dir = os.path.join(new_dir, pagefolder)
+        page_folder = filename[:5]
+        new_dir = os.path.join(new_dir, page_folder)
         filename = filename[6:]
         os.chdir(new_dir)
     #print(filename)
@@ -49,7 +55,8 @@ if __name__ == "__main__":
 
     if(filename.find("/") > 0):
         temp = filename.find("/")
-        new_dir = os.path.join(new_dir,filename[:temp])
+        data_number = filename[:temp]
+        new_dir = os.path.join(new_dir,data_number)
         os.chdir(new_dir)
         filename = filename[(temp+1):]
 
@@ -58,4 +65,29 @@ if __name__ == "__main__":
 
     #at this point. filename is just "filename.png" and that file is in the same working directory
 
+    #print("Current Dir: ", page_folder, data_number)
+    
     preproc_main(filename, page_number)
+
+    final_output_dict = dataproc_main(page_number)
+
+    output_json_filename = "output_" + page_folder + data_number + ".json"
+    print("Writing to", output_json_filename)
+    
+    with open(output_json_filename, "w") as outfile:
+        json.dump(final_output_dict, outfile, indent=4)
+    print("Complete")
+
+    grouthtruth_filename = "truth_" + page_folder + data_number + ".json"
+
+    try:
+        with open(grouthtruth_filename, 'r') as json_file:
+            truth_dict = json.load(json_file)
+
+        checkbox_counts, encirclement_counts = main_solve_error_rate(final_output_dict,truth_dict)
+
+        print("\nCheckbox:\n", checkbox_counts)
+        print("\nEncirclement_counts:\n", encirclement_counts)
+
+    except:
+        print("File ", grouthtruth_filename, " does not exist")

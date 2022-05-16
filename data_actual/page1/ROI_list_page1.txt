@@ -5,9 +5,9 @@ AdmissionDate 0.484 0.177 0.744 0.209
 AdmissionTime 0.731 0.179 0.883 0.207 
 AdmissionTimeAM 0.868 0.179 0.913 0.208 
 AdmissionTimePM 0.908 0.178 0.958 0.209 
-AccreditationNo. 0.48 0.197 0.982 0.228 
+AccreditationNo 0.48 0.197 0.982 0.228 
 Number/Street 0.019 0.218 0.538 0.262 
-Baranggay 0.522 0.218 0.983 0.265 
+Barangay 0.522 0.218 0.983 0.265 
 Municipality 0.019 0.252 0.538 0.298 
 Province 0.52 0.25 0.75 0.299 
 ZipCode 0.733 0.25 0.983 0.297 
