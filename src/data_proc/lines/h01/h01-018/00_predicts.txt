@@ -1,0 +1,7 @@
+h01-018-00.png	The number of structurally seperate dwellings ( that is
+h01-018-01.png	houses or flats or other quahers built or adapled for
+h01-018-02.png	Seperale occupation and forming a private and shuchraly
+h01-018-03.png	Separate unit ) was obtained as previously , tonether with the
+h01-018-04.png	humber of households with sole occupation or sharing
+h01-018-05.png	such chuellings , and the number of lining rooms occu-
+h01-018-06.png	pied by each household .
