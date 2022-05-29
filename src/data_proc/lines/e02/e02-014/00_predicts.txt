@@ -1,7 +1,0 @@
-e02-014-00.png	For short ones a smoothing plane can be used
-e02-014-01.png	The gauge can now be used to nick in the tapers
-e02-014-02.png	on the newly planed surfaces , and these treated
-e02-014-03.png	as before . It is unnecessary to mark the taper with
-e02-014-04.png	the straight-edge as one relies upon the truth
-e02-014-05.png	of the plane sole to make the tapered surfaces
-e02-014-06.png	straight
