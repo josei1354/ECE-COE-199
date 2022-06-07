@@ -1,0 +1,97 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        [
+            "",
+            "GAt FAN ,MARLD E .",
+            ""
+        ]
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        [
+            "mmmmm.m.m...m.",
+            ".mmmmmmmm.m.",
+            ".&.&.&.&",
+            "pApy",
+            "RMAixiAN At BIxEHAFE "
+        ]
+    ],
+    "CourseInTheWards": [
+        "TX",
+        [
+            "",
+            "slo3I2Ozg ItomE ex reaEsi",
+            "sIOROEISIP MTUDATION SP PRHEOSTOMY",
+            "Cosionionisng :pateNt aomred on suppremevextiow initiateD"
+        ]
+    ],
+    "DischargeDate": [
+        "TX",
+        [
+            "IyAmtDtR."
+        ]
+    ],
+    "DischargeTime": [
+        "TX",
+        [
+            "#",
+            "#yty , py "
+        ]
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        [
+            ".......",
+            "EGsFEn Gercaresuenc "
+        ]
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        [
+            ".",
+            "Biorkoerg Mow 10s Met a2 pit 196 wae is w so Lal my E2 00",
+            "pxr",
+            "etiecntisorstonanavertnentGiahatiththifitisc unmnaus tecauss tnovidlosiove ,",
+            "fi-m."
+        ]
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        [
+            "AI But #KHK",
+            "nm",
+            "(yMx ( x txytx."
+        ]
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        [
+            "whm",
+            "#y . ey"
+        ]
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        false
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        [
+            "Para-l",
+            "fulititb."
+        ]
+    ]
+}

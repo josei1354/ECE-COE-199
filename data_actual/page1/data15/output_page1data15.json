@@ -1,0 +1,231 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "Aftftftftftftftftftftftftftftftf",
+            ".&.",
+            "SOFT, ELADBY , NON-TENDER , ( IASES",
+            ".m&"
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "",
+            "creditation No.: (PMIC ) HA9I00SI0",
+            "Citi."
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "I",
+            "AdMissIoN Dake ; A ( 1 V ( 2D7 h",
+            "Litlt"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "Amo",
+            "#a \" 4 \" y",
+            "mnm#"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "o",
+            "FHORAE AORTIC ANEWRIA NA",
+            "me"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "a",
+            "# ",
+            "muQuQ"
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "ft.m.",
+            "#o y",
+            "Eit"
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "Aftftftftftftftftftftftftf",
+            "A",
+            "# t "
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "",
+            "Eer\"Eintviertion \" \"isnth sevef impecked consuCFEL xf fert",
+            "a"
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "....m.m&n&m?m?SirW",
+            "# Aa . ARxte f t by"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            ".",
+            "WHEMING, CoGHINb , uAN PAIN. CHEST PaIN , GxCA PAIN",
+            ""
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "cmicmaumsos a 'aws mnd",
+            ".m&",
+            "aotmnmic exfcoroium , istiucet teaet vouwos , wormat kate , xfoncedRei n",
+            "m&"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "on f 1X ) 2D 2k",
+            "vy"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        true
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "f.....m.",
+            "A A Ex A#",
+            "Cint."
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "a\"2 1",
+            "# un",
+            ".&.",
+            "( - ) PENDERNES , (-JOICHARGE",
+            ".&."
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "Affffffffffff",
+            "m",
+            "AmCtERIO SCreraE , six pAI-EGRAIONMuNC-mRE , I- junos , C uve",
+            ".&"
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "#A",
+            "#x#"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "f-",
+            "# o pty f F "
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        false
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            ".",
+            "# # #",
+            "Cmit."
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "# #xk4 #",
+            "CiGi"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "f.-.",
+            "PMIUIPINE GENEKAL HOdDITDE"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "\"1 10",
+            "No NEIR0L0GIc DEFICTS",
+            "&"
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "r",
+            "# #",
+            "Lr"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            "",
+            "my",
+            "GxbRTNESA HE BREA FIt",
+            "m"
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "A",
+            "#",
+            "."
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "A . "
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "# 4y",
+            "ut"
+        ]
+    ]
+}

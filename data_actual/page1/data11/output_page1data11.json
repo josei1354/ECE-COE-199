@@ -1,0 +1,234 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "A 1A 813",
+            ".&.",
+            "SOFT , FxADY , NON TENOER , C- I MADSES",
+            "&"
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "....mmmm.mi5",
+            "screditation No . : ( PHIC ) Hg,0060,0",
+            "CimitleEisiei"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "p",
+            "Admission Date,GD ) ol x-",
+            "L "
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "an",
+            "Fixn x",
+            "m"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            ".",
+            "ARE TPE A FROM KONG-cOMIO STNOROME",
+            "#H#iM FHixsi",
+            "me"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "Kx",
+            " ",
+            "# . #",
+            ""
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "ftm.",
+            "fo A",
+            "CECGEr ."
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "Aftftftftftftftftftftftftftf",
+            "#A",
+            "f p"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "",
+            "bek orsven mo vesntuestions knenket ine ex vkcc iunfecringemauice it ed",
+            "mi."
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "....&.&.&.&.&?&?mfn",
+            "up #a .\" #f \" # #"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            "",
+            "#f ",
+            "min"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "Aftftftftftftftftftf",
+            "&",
+            "ormanic frfcoromn , dsrinet Heaer souos , normat RearE , ReavAk RANitl",
+            "Ay",
+            ""
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "G3)o3) om",
+            "#EHEY"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "fLC",
+            "#et f",
+            "flin."
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "# #\"#x#",
+            ".&",
+            "( - I TENDERNES , C-TDISCHARGE",
+            ".&."
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "Afy .",
+            ".",
+            "MICERC SCLERAE , Pih PaLpEAat consuncture , ( I ca0s , ( J WVe",
+            "."
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "of",
+            "A",
+            ""
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "f-",
+            "#ot et"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            ".mm",
+            "\"(Ate",
+            "Coin"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "#t A ptlfie",
+            "Cinin."
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "(-.m.m",
+            "PHIKIPINIE GENERAL HOSRITAk"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "cavit aves ' \" smead a.",
+            "No MEUROLGIC DEIClTG",
+            "."
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "r",
+            "p",
+            "Lr"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            "",
+            "MANAGENENT Of DESATURATIONS ANp STMPTOMS",
+            "m"
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "#",
+            "# ",
+            "#"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "#AHAHA",
+            "off #"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "A",
+            "ut"
+        ]
+    ]
+}

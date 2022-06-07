@@ -1,0 +1,235 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "p4 typay .",
+            ".",
+            "NAs NICE DBS (t of )",
+            "."
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "",
+            "creditatlon No. : ( PHIC I H9I6 6 3 6 ,0",
+            "timiclilotit"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "amc",
+            "Admisslan Date . O3 ( Of ( 20r .",
+            "Lmth."
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "7Ms . x- y y",
+            "#nm ."
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "Fm-",
+            "# 4 # # a tuty st'",
+            "AMIKATA HIHKHEts",
+            "mi"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "pm",
+            "bof #",
+            "# "
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            ".",
+            "fr y oy",
+            "\"xK xy uty",
+            "tomiCEtBCEClA"
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "#t o "
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "rim-",
+            "REGULDR cOUODs RoR I MONTH ",
+            ""
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "Mmmmmmmmmmmmmn.",
+            "#p Ms . R #fayoy"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            "rfi",
+            "HIEAUINHISs or EDFt ",
+            "a"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "ale Yowh stn kuw Dn Etn.",
+            "iy",
+            ".",
+            "s UBMIFTED RESUME LDTE.",
+            "poyg ty .",
+            "m"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "As f B 8 ' or",
+            "#M HmEMtELy"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "A.RT-",
+            "A P. #t X",
+            "px Hyx",
+            "filim"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "#y",
+            "At rA .",
+            " pmum tktn ",
+            "m.a",
+            ".m.mn",
+            "( 4 FK M KI W KS",
+            "mn"
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "H tru Yu M R R R Rry tou",
+            "myn",
+            "m",
+            "DNICTERIC SCLFKDE . PINk NOSTRILS",
+            ".mMmMmn."
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "afty",
+            "#"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "fF.-m",
+            "M ty xp"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "Ir....ml",
+            "# I oprfot",
+            "fli"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "pyor f4 #t",
+            "ieht"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "f.-.l",
+            "PAIL I PpINir , GENENDL HOSBIDL"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "vewrotomation OBSESSHN WI TANITL A P1BNS"
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "x",
+            "#IR Dsft t M",
+            "t"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            "Fm-m-",
+            "SvRPKN 0WDRs E",
+            ""
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "#",
+            "y ",
+            "Hm"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "#",
+            "# ty #"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "\"# # #",
+            "prin #x",
+            "#rt"
+        ]
+    ]
+}

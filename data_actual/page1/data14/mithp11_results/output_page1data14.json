@@ -1,0 +1,237 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "ytamy \"",
+            ".",
+            "NAs NICE DBS (t of )",
+            "."
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "mmm",
+            "creditation No . : ( PHIC ) H9I3G 3 0 ,0",
+            "ticbliziclit"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "\"",
+            "Admission Date . GB ) bf ( 20 .",
+            "Lidtho."
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "TR. Afs 4 y",
+            "HDNDND"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "Fm-",
+            "# 4 # # f tfy at s",
+            "AMIxHIME FtARHsiY.",
+            "m"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "pmx",
+            "bf #",
+            "r"
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            ".fm'1",
+            "fy by fy",
+            "\"K # ",
+            "FmicitilchtilizlKl."
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "#y f f y"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "rir",
+            "Grietisonotpresentumnes , obtisrpte bUIAR CouCS'S TFOR A RONTAl",
+            "m"
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "l",
+            "#p Ma \" f o oft y foy"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            "Fri",
+            "AIEAVINRISs ar DEDFt",
+            "a"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "the Rum wih som wn sun wu in",
+            ".",
+            "sUBMIFTED RESUME LDTE",
+            "t vu",
+            "on"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "A3 ) B8 ror"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "IR.FTL-",
+            "A f.Ft ",
+            "Rxt Hyxu",
+            "fitiut"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "x tpupv pmt m",
+            "r",
+            ".",
+            "( J FK MKoK KES S",
+            "y.",
+            "pyt fVkup .",
+            "Cm."
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "Hy Hn tu M \" A R R R HrinHou",
+            "n",
+            "m",
+            "DNICTERIC SCLFRDE . PINk NOSTRILS",
+            "#x#yr .",
+            ".m.mMmMmMminQ"
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "aftly",
+            "M",
+            "MA"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "(F.mg",
+            "A tafy a"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "TF.......ml",
+            "# t ofut",
+            "MHxAKA KxA",
+            "fi"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "py f4 #",
+            "feebilhit"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "C.-l",
+            "PAIL ( PpINit , GENERDL HUSBITDL"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "im \"",
+            "newotomation OBSESSIN WI TANITI A P1ANS"
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "nt",
+            "#xRDs#t Mt",
+            "tlt ."
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            "r-m-.",
+            "SxKPKN fcOWtfos #",
+            ""
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "#",
+            "y #",
+            "#Nu"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "aH",
+            "# ty i #"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "\"# # #",
+            "#ty ps",
+            "wrt"
+        ]
+    ]
+}

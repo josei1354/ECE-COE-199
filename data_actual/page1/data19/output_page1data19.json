@@ -1,0 +1,229 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "",
+            "soft s flubby , non -tander . I) masses",
+            ""
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "i",
+            "creditation No . : (PFT ) \" A9l00S8 I0 ",
+            "aime"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "parG-Th.t. .",
+            "Admission Date : arlor taop ",
+            "#-"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "memn",
+            "Fivps \" # \" ",
+            "m"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        true
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "Fr-.",
+            "ARE Type a from long-CouD Syndrome",
+            "."
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "paiQuiQa.",
+            "y wy",
+            "mnQmQmQ"
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "T...-mT.-i-.",
+            "po y fy",
+            "mlm"
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "Tuy",
+            "p f y"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            ".",
+            "Fiefisiaif - fifthinmaid \" BiftliPations I morth pat-coul samitlution , consutet at pet",
+            ""
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "C. . .-",
+            "# M . 417 y 14 4 to"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            "i",
+            "Dyepnea",
+            "y",
+            "nm"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "",
+            "alpmamic Pncordim , Nistinct most soumds , nornol rate , reyuler thythn",
+            ""
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "8r for ) none"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        true
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "a.....",
+            "opanstom Aomip",
+            "FISE MAMR . o",
+            "Clitin."
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "\" #s a- se",
+            "",
+            "esy gendarrus s bot dischorge",
+            ""
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "",
+            "Anicterie selerak , fink palpeboral consuniture , ( f clads , ( NVE",
+            ""
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "AAn",
+            "#o"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "f.....",
+            "A oxtramntn top"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        false
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "f-....",
+            "pixptofiop",
+            "titi"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "AtAy",
+            "A ",
+            "pomit a",
+            "fi."
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "MRDT-.GI-MIPD.-M..-.-. -ma ",
+            "PUPDINE BEAERAL MRPTPAL"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "po punpotogi's deicits",
+            "",
+            "my"
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "aIaram",
+            "MR ",
+            "brQcQ"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            ".",
+            "Managment of desaturotions and symptoms",
+            ".mmm."
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "m",
+            "#f n",
+            "mn"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "H",
+            "A in "
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "f pymy.",
+            "md"
+        ]
+    ]
+}

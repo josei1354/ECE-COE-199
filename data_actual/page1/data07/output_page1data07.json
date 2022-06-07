@@ -1,0 +1,232 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "",
+            "soFT , ADPY , NoN TeNER , CI MASES",
+            "."
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "mm",
+            "Accreditation No. : ( PHC ) A9,00s0w0",
+            "Cimite"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "fu",
+            "ANISION NAKE, OBlol( DoLD ",
+            "Lio"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "AN",
+            "xtpyan an #",
+            "mo."
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "",
+            "AF TUPE I FRon KoNG-CoMD SNORONE",
+            "KItIM IxEKEIE",
+            "m"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "KoAm",
+            "#",
+            "mnm."
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "fF.im.",
+            "f ",
+            "Cilin."
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "tunny",
+            "AH",
+            "p #"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            ".",
+            "ceax ousrion no veramuations nurn esi-eve stucec vkecren censuce in eet",
+            "m"
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "m.A.",
+            "#p H . # t # #a."
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            ".",
+            "# #f & #M ",
+            "am"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            ".",
+            "ouvauic pncoroium , oistiuct tet sowos , weanal art , eoueat attun",
+            "",
+            "c"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "py ? f 7 I 7ze"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "f.",
+            "# t fu",
+            "#km tukmn",
+            "Ci."
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "se # \"A be the",
+            ".m.&.",
+            " , rENPERNESS , I- ) DlSCHARE",
+            ""
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            ".&",
+            "Cereaic scerae . BiNx PALREGMRl consuvcrune , (CI C2a0s , C I wur",
+            ".&"
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "A",
+            "#"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            ".m.mmmmm..'1",
+            "# t #",
+            "# tut #"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "L",
+            "# #",
+            "tu t Rum",
+            "Cind"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "q Atl",
+            "AKAIHAKTHAfAtty",
+            "CiElieiGng"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "'",
+            "PpINE GENERAL HOSP I TAh",
+            "ARMK A HAEHikAl frtinip"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "o NEKRONGIC PEFICIF",
+            ""
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "f---u",
+            "pt ",
+            "Lr"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            ".o.",
+            "uAv-acNENr of DESaMURATONS ANP Syuprous",
+            "m"
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "#",
+            "#",
+            "m"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "AHAHAHAHAHA",
+            "# \""
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "f#",
+            "wt"
+        ]
+    ]
+}

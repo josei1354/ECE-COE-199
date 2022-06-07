@@ -1,0 +1,229 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "Mum",
+            "",
+            "piAPRPEGH ",
+            ""
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "ro",
+            "Lolfietot.",
+            "poepeditationNto \" if t y",
+            "#rtr"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            ".a1 1 # y",
+            "Admission Dateion (DAIaoAf-.",
+            "#rtr",
+            "tr-it"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "WA",
+            "pipp A \" y",
+            "#r"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            ".",
+            "Iu.",
+            "amitmavisenoss preuMOnouCRAIMICNDSCODICSIUCONOLCANOCON,OSis"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "f .",
+            "fo y",
+            "mno-."
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "f.P.-.-u .",
+            "f ptsrol fot",
+            "imu."
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "Pup",
+            "y7 f f'y"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            ".",
+            "ty",
+            "....."
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "C . . mNTirTGADGTINSTCITA\"",
+            "o As . fit ofofpy"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            ".",
+            "#y ",
+            "amisn"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "",
+            "Rx FIapTE",
+            ""
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "Va ) g3 ) a0a"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "f....",
+            "DR",
+            "Clit"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "\" 1s& ae",
+            "",
+            "p,ETARTOEs Io y",
+            ""
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "",
+            "poUDpAcH's oNtFEaTItRE ",
+            ""
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "#",
+            "fo."
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "m.",
+            "A RD"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            ".",
+            "5yt g",
+            "flit"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "nicipalitybfitt s",
+            "Iidito "
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "T. . .TImIG.D.m",
+            "yiApral 's"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "m",
+            "A ",
+            "."
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "almsn-t",
+            "f DKs",
+            "korm"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            ".-.",
+            "my",
+            "eason of Admission w4 NYT I",
+            "."
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "",
+            "f4",
+            "mnmmumn",
+            "#m'"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "# f\"y"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "#y",
+            "wrut"
+        ]
+    ]
+}

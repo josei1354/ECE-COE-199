@@ -1,0 +1,225 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "adiminimini",
+            "fumm",
+            "SoFTIHANLNCLTEDRCnasses"
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "\".I",
+            "creditationNa . .DouICD 4O,00S0,0",
+            "flfinetitin"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "pt",
+            "Admission Date ; Ox( 2o taoz .",
+            "ttlktdl"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "",
+            "Fia\" Io . Aey",
+            "m"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        true
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "i",
+            "DRETREI FROM coNa-cour SMADROME",
+            "i-m.T",
+            "m"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "Ao.",
+            "y y",
+            ""
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "rmim.",
+            "f y",
+            "mKliKSte"
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "txtuy"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "I Week-eusered Mreivercturauave shont est cnl-set intec rion",
+            "mim"
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "-mr.",
+            "E MA . x ) at f"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            "",
+            "# f aAf",
+            "miede"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "mimisinin.",
+            "-Lamaic rccensum firict Makt Sones emg lare Ccure Firing",
+            "f"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "g? 2 a gax"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "f.Ti.",
+            "#yf ft",
+            "flilitil"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "uWLAAALN",
+            "A #a& & th",
+            ".m.mn.",
+            "( J FENDERNESS , C ) DNCHARGE",
+            "fumm"
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "cr",
+            "wiceScenim a ncammux , Sca,DiE",
+            "mn."
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "#",
+            "#p#"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "f..",
+            "#y t siy"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "C'-.muml",
+            "(A xyp",
+            "fhlili"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "# #t 4 f f",
+            "LHEHEHEGEGELG"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "(T.T.CTmi.m..",
+            "PHIKITRTNE GENERAL HOSRITAL"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "mnri",
+            "Mb AICRO 4oGlC DEICIT'S"
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "m-",
+            "ft",
+            "Lt"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            "",
+            "MANAGENIENTOL DEATURHTIONS AN0 SMP TOMS",
+            "m"
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "A",
+            "# #",
+            "#A"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "AH",
+            "fto \" ",
+            "ANAHAN"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "f ",
+            "rl"
+        ]
+    ]
+}
