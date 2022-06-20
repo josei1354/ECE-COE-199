@@ -1,23 +1,41 @@
 {
     "AttendingPhysician": [
         "TX",
-        "None Yet"
+        [
+            "m",
+            "devtes he Frederidl"
+        ]
     ],
     "ConditionOfDischarge": [
         "TX",
-        "None Yet"
+        [
+            "",
+            "",
+            "-be"
+        ]
     ],
     "CourseInTheWards": [
         "TX",
-        "None Yet"
+        [
+            "MI.EITIC-I-IA-\"",
+            "sip intulation , 8lp tracestomy",
+            "LO0Ialzoad') Patient admitted , Oa suppementation initiated"
+        ]
     ],
     "DischargeDate": [
         "TX",
-        "None Yet"
+        [
+            "n in t ith A ",
+            "y fay lald"
+        ]
     ],
     "DischargeTime": [
         "TX",
-        "None Yet"
+        [
+            "# #n t A Ath",
+            "",
+            "p py \" #p"
+        ]
     ],
     "DischargeTimeAM": [
         "Encirclement",
@@ -29,19 +47,33 @@
     ],
     "FinalDiagnosis": [
         "TX",
-        "None Yet"
+        [
+            "",
+            "Jeubic",
+            "SveDSninse"
+        ]
     ],
     "PertinentLabFindings": [
         "TX",
-        "None Yet"
+        [
+            "-m",
+            "Coglalavoa ) Mab ,s et sa Bit tale wer is \" to tal Nit fa b0",
+            "#",
+            "C"
+        ]
     ],
     "SurgicalOperationDate": [
         "TX",
-        "None Yet"
+        [
+            "# H # #",
+            "alalara"
+        ]
     ],
     "SurgicalOperationTime": [
         "TX",
-        "None Yet"
+        [
+            "#\" y"
+        ]
     ],
     "SurgicalOperationTimeAM": [
         "Encirclement",
@@ -53,6 +85,9 @@
     ],
     "TypeOfAnesthesia": [
         "TX",
-        "None Yet"
+        [
+            "(shimhamn",
+            "C-licil"
+        ]
     ]
 }

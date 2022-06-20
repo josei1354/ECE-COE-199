@@ -1,0 +1,103 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        [
+            "um",
+            "CarAE . 1OSHUA S0StND 0",
+            "M",
+            "-"
+        ]
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        [
+            "my",
+            "",
+            "",
+            "Jece"
+        ]
+    ],
+    "CourseInTheWards": [
+        "TX",
+        [
+            "a .  . im \" im .  'smsu'.\".m",
+            "mnmnmnm",
+            "(o3( I 3(3OT2 ) MONIE PER REOUEST",
+            "C os \" 1 1O3 SIp INIUGATlON . SP TRA CHeOSTomY",
+            "Lost ,onond patlent domItrer oa suplementation in itited"
+        ]
+    ],
+    "DischargeDate": [
+        "TX",
+        [
+            "Aupn kyn t Duy mp & K WK4 DY",
+            "mn",
+            "poyt t t4 fosa"
+        ]
+    ],
+    "DischargeTime": [
+        "TX",
+        [
+            "mn tum in mun ru y",
+            "mr",
+            "y i poymy",
+            "ry"
+        ]
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        [
+            ".",
+            ".",
+            "SrEAGEGtONrCoan",
+            "finlvigfief's MYPE 2 ER0n cous coulo sunszome"
+        ]
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        [
+            "",
+            "Cl",
+            "Cualopsorig tob lol rct 37 pit wro me is n 7o 19l mr 27 b",
+            "# # fo"
+        ]
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        [
+            "we hme \" s Bo I ' be be in",
+            "nQoQ",
+            "py y f t Pong"
+        ]
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        [
+            "mn.",
+            "If - ce"
+        ]
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        true
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        [
+            "PIBRichamn",
+            "Llinit"
+        ]
+    ]
+}

@@ -1,0 +1,240 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "tWMy",
+            "# \" 1 1\" \" s a #",
+            ".",
+            "",
+            "spoge #h ing",
+            ""
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "fti ",
+            "Ecreditation No . : (BHAISLDGLDEDIE",
+            "Lkelecdristie."
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "fmimtrfa.",
+            "(ANISIONRAKRIFATERTAm.",
+            "#it"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "camnai nommo .",
+            "apRitrminpfr",
+            "mh"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "",
+            "fth #o",
+            "ma"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "AKAKA",
+            "#y",
+            "mQ"
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "Frm-buF.im.",
+            "i-e",
+            "#EAMN m",
+            "my",
+            "lsuitei"
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "#y t higy"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "muei",
+            "o MAINT #up \" Thity",
+            "amnmm"
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "-ALCTIECTCTAi",
+            "a Mai D0D5 . .",
+            "u mutinu"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            "",
+            "t puttefy",
+            "Lum"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "2 \" \" # t\" # #710s. #0-#",
+            "",
+            "D1B-ThEop Y EoWmIDt",
+            "",
+            "my"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "mmmary",
+            "mun",
+            "If f ? 13"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "f.-",
+            "#",
+            "my",
+            "LDliKet"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "Aun",
+            "",
+            "fo ptipntr .",
+            ""
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "in",
+            "pmy atryg ( aJWiHio",
+            ".&"
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "Atiy ",
+            "f",
+            "(#ANHN"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "fi.",
+            "Am pubt t p",
+            "ay"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "F.",
+            "#gti f",
+            "LFeltm"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            " .m. m.t",
+            "F",
+            "#t? imt pntophiof",
+            "LcEDeDEUDei-mt"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "T.r.IaIT.Im",
+            "tmuy"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "ami",
+            "pn Me",
+            "mits KEINKIRLNENE BEFTKL-FS",
+            "",
+            "tA",
+            "MAELEAEAEAEAEAEALAL"
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "ax-A",
+            "Fnf ?atptryto",
+            "Llthr ."
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            "Cmiibifi bNechars be mxerenc .",
+            "m"
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "m",
+            "#p #",
+            "aQuQ"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "#f \" #"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "fa xthfr",
+            "md"
+        ]
+    ]
+}

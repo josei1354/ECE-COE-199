@@ -1,0 +1,534 @@
+{
+    "AllGarmentsRemovedNo": [
+        "Checkbox",
+        true
+    ],
+    "AllGarmentsRemovedYes": [
+        "Checkbox",
+        false
+    ],
+    "AntibioticOrdered1": [
+        "TX",
+        [
+            "eElEf"
+        ]
+    ],
+    "AntibioticOrdered1No": [
+        "Checkbox",
+        false
+    ],
+    "AntibioticOrdered1Yes": [
+        "Checkbox",
+        true
+    ],
+    "AntibioticOrdered2": [
+        "TX",
+        [
+            "turyur y",
+            "r"
+        ]
+    ],
+    "AntibioticOrdered2No": [
+        "Checkbox",
+        false
+    ],
+    "AntibioticOrdered2Yes": [
+        "Checkbox",
+        false
+    ],
+    "AntibioticOrdered3": [
+        "TX",
+        [
+            "-"
+        ]
+    ],
+    "AntibioticOrdered3No": [
+        "Checkbox",
+        false
+    ],
+    "AntibioticOrdered3Yes": [
+        "Checkbox",
+        false
+    ],
+    "BloodOrderedNo": [
+        "Checkbox",
+        false
+    ],
+    "BloodOrderedYes": [
+        "Checkbox",
+        true
+    ],
+    "BloodType": [
+        "TX",
+        [
+            "#",
+            "f"
+        ]
+    ],
+    "BodyWeight": [
+        "TX",
+        [
+            "A",
+            "oy poy",
+            "AN"
+        ]
+    ],
+    "BowelPreparationNo": [
+        "Checkbox",
+        true
+    ],
+    "BowelPreparationYes": [
+        "Checkbox",
+        false
+    ],
+    "BPPostMed": [
+        "TX",
+        [
+            "f.Mun tuk . K.\" t",
+            "forf"
+        ]
+    ],
+    "BPPreMed": [
+        "TX",
+        [
+            "f th mu .# # \" \"oAmmm.AWHu ",
+            "#fo"
+        ]
+    ],
+    "CaseNo": [
+        "TX",
+        [
+            "o",
+            "#"
+        ]
+    ],
+    "ConsentNo": [
+        "Checkbox",
+        false
+    ],
+    "ConsentYes": [
+        "Checkbox",
+        true
+    ],
+    "DateOfOperation": [
+        "TX",
+        [
+            "A",
+            "#y x f fuxux",
+            "E"
+        ]
+    ],
+    "Diagnosis": [
+        "TX",
+        [
+            "\" #ol",
+            "KECENKENENEDKUNDNDEUS",
+            "m"
+        ]
+    ],
+    "Elective": [
+        "Checkbox",
+        false
+    ],
+    "Emergency": [
+        "Checkbox",
+        false
+    ],
+    "FalseTeethRemovedNo": [
+        "Checkbox",
+        true
+    ],
+    "FalseTeethRemovedNone": [
+        "Checkbox",
+        false
+    ],
+    "FalseTeethRemovedYes": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "oun",
+            "o",
+            "t y f o y"
+        ]
+    ],
+    "HeadNurse": [
+        "TX",
+        [
+            "DAlAeleklE ."
+        ]
+    ],
+    "HRPostMed": [
+        "TX",
+        [
+            "pef "
+        ]
+    ],
+    "HRPreMed": [
+        "TX",
+        [
+            "Rxtasy",
+            "MNANAN"
+        ]
+    ],
+    "IDWristletNo": [
+        "Checkbox",
+        false
+    ],
+    "IDWristletYes": [
+        "Checkbox",
+        true
+    ],
+    "IntravenousNo": [
+        "Checkbox",
+        true
+    ],
+    "IntravenousYes": [
+        "Checkbox",
+        false
+    ],
+    "JewelryRemovedNo": [
+        "Checkbox",
+        false
+    ],
+    "JewelryRemovedNone": [
+        "Checkbox",
+        false
+    ],
+    "JewelryRemovedYes": [
+        "Checkbox",
+        true
+    ],
+    "LastName": [
+        "TX",
+        [
+            "wo",
+            "put a s Ak ."
+        ]
+    ],
+    "MiddleInitial": [
+        "TX",
+        [
+            "HAHAHN",
+            "#"
+        ]
+    ],
+    "MSSA": [
+        "Encirclement",
+        true
+    ],
+    "MSSB": [
+        "Encirclement",
+        false
+    ],
+    "MSSC": [
+        "Encirclement",
+        false
+    ],
+    "MSSD": [
+        "Encirclement",
+        false
+    ],
+    "NailPolishRemovedNo": [
+        "Checkbox",
+        true
+    ],
+    "NailPolishRemovedYes": [
+        "Checkbox",
+        false
+    ],
+    "NoUnitsBloodXMatched": [
+        "TX",
+        [
+            "GRNDNHNA",
+            "#",
+            "mu."
+        ]
+    ],
+    "NoUnitsFreshBlood": [
+        "TX",
+        [
+            "Ate.",
+            "f#",
+            "wrm."
+        ]
+    ],
+    "NoUnitsRBC": [
+        "TX",
+        [
+            "Ru",
+            "\" #u",
+            "#y",
+            "#Aninu"
+        ]
+    ],
+    "NoUnitsRBCXMatched": [
+        "TX",
+        [
+            "CeomHAH",
+            "#f. #y",
+            "#"
+        ]
+    ],
+    "NurseInCharge": [
+        "TX",
+        [
+            "FltDecaCfl .",
+            "m"
+        ]
+    ],
+    "Operation": [
+        "TX",
+        [
+            "t kuNn t",
+            "mivienei MC.Cel ",
+            "ECESECTONMUL TI- AMPU TATrON'"
+        ]
+    ],
+    "OralCareNo": [
+        "Checkbox",
+        true
+    ],
+    "OralCareYes": [
+        "Checkbox",
+        false
+    ],
+    "ORNeedSent": [
+        "TX",
+        [
+            "",
+            "..&m",
+            "Catchal",
+            "run"
+        ]
+    ],
+    "PreAnesthetic1": [
+        "TX",
+        [
+            "\"C\"CIDCDIDNDNDIGCGDGDIGKICN ",
+            "u",
+            "f # x ynt"
+        ]
+    ],
+    "PreAnesthetic1No": [
+        "Checkbox",
+        false
+    ],
+    "PreAnesthetic1Yes": [
+        "Checkbox",
+        true
+    ],
+    "PreAnesthetic2": [
+        "TX",
+        [
+            "m",
+            "u"
+        ]
+    ],
+    "PreAnesthetic2No": [
+        "Checkbox",
+        false
+    ],
+    "PreAnesthetic2Yes": [
+        "Checkbox",
+        false
+    ],
+    "PreAnesthetic3": [
+        "TX",
+        [
+            "",
+            "m"
+        ]
+    ],
+    "PreAnesthetic3No": [
+        "Checkbox",
+        false
+    ],
+    "PreAnesthetic3Yes": [
+        "Checkbox",
+        false
+    ],
+    "PreAnestheticTime1": [
+        "TX",
+        [
+            "",
+            "# y \"y poy"
+        ]
+    ],
+    "PreAnestheticTime2": [
+        "TX",
+        [
+            "Tuy",
+            "mQmQcQ<",
+            ""
+        ]
+    ],
+    "Remarks": [
+        "TX",
+        [
+            "#A"
+        ]
+    ],
+    "ResidentInCharge": [
+        "TX",
+        [
+            "o",
+            "#x I ADOHED EHEF.",
+            "ext"
+        ]
+    ],
+    "RRPostMed": [
+        "TX",
+        [
+            "#y . I",
+            "o #"
+        ]
+    ],
+    "RRPreMed": [
+        "TX",
+        [
+            "Ayumny Atmn",
+            "mn",
+            "#fx"
+        ]
+    ],
+    "SerialNoBloodXMatched": [
+        "TX",
+        [
+            "nmt .",
+            "fy poy",
+            "m"
+        ]
+    ],
+    "SerialNoFreshBlood": [
+        "TX",
+        [
+            "",
+            "y",
+            "arQ"
+        ]
+    ],
+    "SerialNoRBC": [
+        "TX",
+        [
+            "wo",
+            "uy",
+            "a"
+        ]
+    ],
+    "SerialNoRBCXMatched": [
+        "TX",
+        [
+            "# #y",
+            "#A"
+        ]
+    ],
+    "Service": [
+        "TX",
+        [
+            "Hum",
+            "\"# 4 # 4 4 #"
+        ]
+    ],
+    "SideRailsAppliedNo": [
+        "Checkbox",
+        false
+    ],
+    "SideRailsAppliedYes": [
+        "Checkbox",
+        true
+    ],
+    "SkinPreparationNo": [
+        "Checkbox",
+        true
+    ],
+    "SkinPreparationYes": [
+        "Checkbox",
+        false
+    ],
+    "SkinTest1": [
+        "TX",
+        []
+    ],
+    "SkinTest2": [
+        "TX",
+        [
+            "i \" \" \" F f hgh gf.f. .53DTMD",
+            "p.",
+            "",
+            "p",
+            "\".",
+            ""
+        ]
+    ],
+    "SkinTest3": [
+        "TX",
+        []
+    ],
+    "Surgeon": [
+        "TX",
+        [
+            "#\" # #",
+            "fax reyetfu"
+        ]
+    ],
+    "TempPostMed": [
+        "TX",
+        [
+            "#mm",
+            "# . to #o"
+        ]
+    ],
+    "TempPreMed": [
+        "TX",
+        [
+            "Auy",
+            "o b\" to",
+            "mn"
+        ]
+    ],
+    "Time": [
+        "TX",
+        [
+            "# i #y",
+            "#Wth"
+        ]
+    ],
+    "TimeAM": [
+        "Encirclement",
+        true
+    ],
+    "TimePM": [
+        "Encirclement",
+        false
+    ],
+    "WardAndBedNo": [
+        "TX",
+        [
+            "oMilit",
+            ".",
+            "of x ",
+            "ty"
+        ]
+    ],
+    "XRAyNo": [
+        "TX",
+        [
+            "\""
+        ]
+    ],
+    "XRayPlateNo": [
+        "Checkbox",
+        false
+    ],
+    "XRayPlateNone": [
+        "Checkbox",
+        false
+    ],
+    "XRayPlateYes": [
+        "Checkbox",
+        true
+    ]
+}

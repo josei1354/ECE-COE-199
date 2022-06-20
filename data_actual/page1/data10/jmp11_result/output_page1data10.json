@@ -1,0 +1,229 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "emmnimin",
+            "-3O-krey , turer C hases"
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "IAGDODATOnNaSTiNE I PrarGdbole.",
+            "Chamubebeitlbei"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "Andrnwshow Rmt Gxlt \" Iivary",
+            "Kmnatitibt "
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "Punun o anwy t",
+            "mnmnmmn"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            ".",
+            "ARE THPE I FOL LONG-cond S4NORaHE",
+            "axtrmtr tumomnkt.",
+            "amis"
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "mnm",
+            "r",
+            "M. thiry u",
+            "mimimis."
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "a",
+            "fuvpay",
+            "Ainumrmun mp",
+            "Com-ShLDSC."
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "\"x t #y"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "",
+            "vicen \" \"isinic : \" Dif ESINiestiens mend axt sove sevrl Meca y",
+            "m"
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "mtltly",
+            "M \" uy y y ay 14 wy thy"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            ".\".",
+            "pys#t",
+            "ias-"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "amie.",
+            "Donsuc Rxcewg EthET Hxr sus hen eny beame atrg"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "(y7 f y ( xD 1o4",
+            "ru mumnup",
+            "mnut"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "I.",
+            "\"t",
+            "pormun Pernmun",
+            "tble"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "Kmntintintiontisnit ",
+            "ae Nhwer aWhe in",
+            "m.",
+            "( AI FEMDERNES , E) UBCHARGE"
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "Ay.",
+            "ACeRSCEAGMu ENDCERAcmourE (caOs. O vc",
+            "."
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "off"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "am.",
+            "#t fRey",
+            "prunx Kr runun"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "\"",
+            "afupy",
+            "RuNxvhi Ykrumuwon",
+            "Lli"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "MO",
+            "IrEOHFED",
+            "BDNkDn ."
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "re",
+            "PHAIKIPDINE GENER AL MOSD I TAk",
+            "kurx # thumunf ruvuh"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "eviasi-ineitis",
+            "muny",
+            "NENRDLDErcth RERIGtY "
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "NANn",
+            "pxpy",
+            "Pmnunun ",
+            "KnKtnKns ."
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            ".",
+            "MANAGEMEANT OF RESAMeAMONS AN0 SxMpTOMs",
+            "au"
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "",
+            "m"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "rmmmmmmnnnnnnnnnnm",
+            "1t . #"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "p#py",
+            "ty kuvunlu",
+            "mnsmt"
+        ]
+    ]
+}

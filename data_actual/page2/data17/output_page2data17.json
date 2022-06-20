@@ -1,0 +1,113 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        [
+            "m",
+            "El McWD ( , opips t",
+            "M.",
+            "my",
+            ""
+        ]
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        [
+            "",
+            "",
+            "WeRSEDEL",
+            "COMAIFIDM OF DisctArfE' m",
+            "mn"
+        ]
+    ],
+    "CourseInTheWards": [
+        "TX",
+        [
+            "CiovovomommnadmArvAinvG-mvovam ",
+            "RO3Izl -ong I niss youa",
+            "F.d3 ( M\"zozig weNl NAKITA KIT.R",
+            "snyn",
+            "m"
+        ]
+    ],
+    "DischargeDate": [
+        "TX",
+        [
+            "w wo so w ie w we",
+            "r ",
+            "#f 4 4 I 7-"
+        ]
+    ],
+    "DischargeTime": [
+        "TX",
+        [
+            "s sw i iwe sw io",
+            "rm",
+            "pyto \" q "
+        ]
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        [
+            "mn",
+            "y",
+            "",
+            "",
+            "Inioifigi's trucked un htE Auck Caurl"
+        ]
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        [
+            "fr",
+            "My",
+            "my",
+            "#",
+            "RO3IinSoND HENOGLOINS CREATNE DESMUCTtON",
+            "vy",
+            "y",
+            "M",
+            "in",
+            "# ",
+            "L"
+        ]
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        [
+            "w be herse to Be be a se sew he be",
+            "#t .",
+            "# ty ) 4 A. I RaDT"
+        ]
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        [
+            "mAnr.",
+            "#y f "
+        ]
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        true
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        [
+            "MiGRim.",
+            "M",
+            "Clililm"
+        ]
+    ]
+}

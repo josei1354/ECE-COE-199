@@ -1,0 +1,95 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        [
+            "mu",
+            "paI rexptlbt",
+            ".mn."
+        ]
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        [
+            "ANAy",
+            "",
+            "",
+            "my",
+            "-WeWeli",
+            "RMDItiAN F isaHDTEt"
+        ]
+    ],
+    "CourseInTheWards": [
+        "TX",
+        [
+            "CRATGITI-ITI-",
+            "Fos ioa' Iavon \" MOME PER REWEST"
+        ]
+    ],
+    "DischargeDate": [
+        "TX",
+        [
+            "beve we be \" s s a - be i -",
+            "AElaa) asy"
+        ]
+    ],
+    "DischargeTime": [
+        "TX",
+        [
+            "t \" y"
+        ]
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        [
+            "",
+            "",
+            "Iinardjgsifive"
+        ]
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        [
+            ".",
+            "FRLB",
+            "f # fr",
+            "C"
+        ]
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        [
+            "vatOtfaon"
+        ]
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        [
+            "M",
+            "#xt \" A B"
+        ]
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        false
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        [
+            "TA?M.-I--ml",
+            "pxt toft.",
+            "flul."
+        ]
+    ]
+}

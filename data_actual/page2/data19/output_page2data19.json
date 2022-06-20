@@ -1,0 +1,96 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        [
+            "-eliecie",
+            "er rame Mesrin (as",
+            "a.m?"
+        ]
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        [
+            "",
+            "",
+            "-tepere"
+        ]
+    ],
+    "CourseInTheWards": [
+        "TX",
+        [
+            "TFTAG.Gm",
+            "288 (os poar ) Home pur reqmet",
+            "losfoe ) nons ) slp intubation . Slp Tracheortony",
+            "1osforl now ) patient admitted . Oe supplementation initiatud"
+        ]
+    ],
+    "DischargeDate": [
+        "TX",
+        [
+            "# # A # 4 t sw w wa",
+            "o (orlarpir"
+        ]
+    ],
+    "DischargeTime": [
+        "TX",
+        [
+            "mn sumn i min m",
+            "mrmrmQmQmQmQuroQ",
+            "py ia a pyup"
+        ]
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        [
+            "",
+            "FEFR-",
+            "tinaviomariuet but son long-cove subrerny"
+        ]
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        [
+            "",
+            "p o Xet M oa R9",
+            "cbe ( os forporn ) 4OD loe 1ut a pit yab wol is",
+            "C"
+        ]
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        [
+            "a m in m s",
+            "tratoar"
+        ]
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        [
+            "#",
+            "f \" #"
+        ]
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        false
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        [
+            "Tihi-m",
+            "Cliki."
+        ]
+    ]
+}
