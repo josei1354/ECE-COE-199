@@ -25,6 +25,13 @@ def preproc_roi_output(aligned_img_gray, page_number):
 
     img = aligned_img_gray
 
+    """
+    img_copy = aligned_img_gray.copy()
+    img_copy = cv2.cvtColor(img_copy,cv2.COLOR_GRAY2RGB)
+    counter = 0
+    bgr_colors = ((255,0,0,),(0,255,0),(0,0,255))
+    """
+
     dimension = img.shape
 
     height = dimension[0]
@@ -41,17 +48,29 @@ def preproc_roi_output(aligned_img_gray, page_number):
         bottomright_y = ceil(height * float(data[4]))
 
         #print(data[0], topleft_x,topleft_y,bottomright_x,bottomright_y)
-
+        """
+        new_corners = np.array([[
+            [topleft_x, topleft_y],
+            [bottomright_x, topleft_y],
+            [bottomright_x, bottomright_y],
+            [topleft_x, bottomright_y]
+            ]])
+        
+        if(not counter%3):
+            cv2.drawContours(img_copy, new_corners, -1, bgr_colors[counter%3], 3)
+        counter += 1
+        """
         crop_img = img[topleft_y:bottomright_y, topleft_x:bottomright_x]
         cv2.imwrite("ROI_crops/"+data[0]+".png", crop_img)
-    
+
+    #cv2.imwrite("garp1_some_ROI.jpg",img_copy)
     print("ROI Cropping Complete")
     return True
 
 if __name__ == "__main__":
 
-    dir_of_data = 'blank_forms'
-    file_used =  'page1-crop.jpg' #page3
+    dir_of_data = 'samples'
+    file_used =  'garp1_new.jpg' #page3
     page_number = 1
     
     curr_dir = os.getcwd()
