@@ -1,4 +1,4 @@
-This branch contains data that has already been processed. This branch does NOT contain the validation experiements.
+This main branch contains data that has already been processed. This branch does NOT contain the validation experiements.
 Go to "for_submission" branch for repo without ROI_crops directories and with validation experiements.
 
 to run main module, change directory to /src and run:
