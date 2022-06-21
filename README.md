@@ -1,3 +1,6 @@
+This branch contains data that has already been processed. This branch does NOT contain the validation experiements.
+Go to "for_submission" branch for repo without ROI_crops directories and with validation experiements.
+
 to run main module, change directory to /src and run:
 
 python preproc_main.py --filename <name> --pagenum <1,2,3,or,4>
