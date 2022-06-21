@@ -1,0 +1,962 @@
+{
+    "Age": [
+        "TX",
+        [
+            "#s"
+        ]
+    ],
+    "Birthdate": [
+        "TX",
+        [
+            "AAAEELELELELELALALALALALALY",
+            "# frt t 4 ty ip"
+        ]
+    ],
+    "CaseNo": [
+        "TX",
+        [
+            "# but \"t I1 1 1 #",
+            "1x pym\"x pk"
+        ]
+    ],
+    "Enteral1": [
+        "TX",
+        [
+            "",
+            "Cid"
+        ]
+    ],
+    "Enteral2": [
+        "TX",
+        [
+            "Atry",
+            "C"
+        ]
+    ],
+    "Enteral3": [
+        "TX",
+        [
+            ".",
+            "C."
+        ]
+    ],
+    "Enteral4": [
+        "TX",
+        [
+            "a.",
+            "Ct"
+        ]
+    ],
+    "Enteral5": [
+        "TX",
+        [
+            "\"......1",
+            "C"
+        ]
+    ],
+    "Enteral6": [
+        "TX",
+        [
+            "\".",
+            "Ct"
+        ]
+    ],
+    "Enteral7": [
+        "TX",
+        [
+            "\".",
+            "Cm"
+        ]
+    ],
+    "Enteral8": [
+        "TX",
+        [
+            ".",
+            "Cml"
+        ]
+    ],
+    "Enteral9": [
+        "TX",
+        [
+            "m.m.",
+            "C."
+        ]
+    ],
+    "Enteral10": [
+        "TX",
+        [
+            "\".......&.iaf",
+            "C"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        true
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "Phtlar Aapig",
+            "w"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        false
+    ],
+    "MiddleInitial": [
+        "TX",
+        [
+            "v",
+            ".",
+            "AN"
+        ]
+    ],
+    "NurseIDE1": [
+        "TX",
+        [
+            "pai",
+            "Kem.q.q.mQmQmQu<"
+        ]
+    ],
+    "NurseIDE2": [
+        "TX",
+        [
+            "pm",
+            "Kmut"
+        ]
+    ],
+    "NurseIDE3": [
+        "TX",
+        [
+            "RHNHDNDNDNDN",
+            "Honut"
+        ]
+    ],
+    "NurseIDE4": [
+        "TX",
+        [
+            "pm .",
+            "Domsanut"
+        ]
+    ],
+    "NurseIDE5": [
+        "TX",
+        [
+            "HNKNENAns ",
+            "#m."
+        ]
+    ],
+    "NurseIDE6": [
+        "TX",
+        [
+            "RHNANONANA",
+            "Kunm t"
+        ]
+    ],
+    "NurseIDE7": [
+        "TX",
+        [
+            "ANANANAN",
+            "Kams."
+        ]
+    ],
+    "NurseIDE8": [
+        "TX",
+        [
+            "#NANAN",
+            "Km"
+        ]
+    ],
+    "NurseIDE9": [
+        "TX",
+        [
+            "ARA ",
+            "Lmms ."
+        ]
+    ],
+    "NurseIDE10": [
+        "TX",
+        [
+            "HN",
+            "Kmt"
+        ]
+    ],
+    "NurseIDP1": [
+        "TX",
+        [
+            "enHAN",
+            "yrt",
+            "#u"
+        ]
+    ],
+    "NurseIDP2": [
+        "TX",
+        [
+            "Lm ",
+            "mny 7 upx",
+            "WHhN "
+        ]
+    ],
+    "NurseIDP3": [
+        "TX",
+        [
+            "#xnut.",
+            "#tltli"
+        ]
+    ],
+    "NurseIDP4": [
+        "TX",
+        [
+            "ans ",
+            "LWN"
+        ]
+    ],
+    "NurseIDP5": [
+        "TX",
+        [
+            "pN",
+            "#NONA"
+        ]
+    ],
+    "NurseIDP6": [
+        "TX",
+        [
+            "pain",
+            "Kunm"
+        ]
+    ],
+    "NurseIDP7": [
+        "TX",
+        [
+            "pH",
+            "#NWNWN"
+        ]
+    ],
+    "NurseIDP8": [
+        "TX",
+        [
+            "pmimi .",
+            "#Nu "
+        ]
+    ],
+    "NurseIDP9": [
+        "TX",
+        [
+            "#M",
+            "#HNWNmnut"
+        ]
+    ],
+    "NurseIDP10": [
+        "TX",
+        [
+            "pnad .",
+            "Gun.qyquyu."
+        ]
+    ],
+    "NurseIDP11": [
+        "TX",
+        [
+            "ARNDNDODNDON"
+        ]
+    ],
+    "NurseIDS1": [
+        "TX",
+        [
+            "Knia",
+            "#xA"
+        ]
+    ],
+    "NurseIDS2": [
+        "TX",
+        [
+            "Htr. .",
+            "km."
+        ]
+    ],
+    "NurseIDS3": [
+        "TX",
+        [
+            "#N",
+            "#xAAAAAAAAAAA"
+        ]
+    ],
+    "NurseIDS4": [
+        "TX",
+        [
+            "#NANANAN",
+            "LANNN"
+        ]
+    ],
+    "NurseIDS5": [
+        "TX",
+        [
+            "W .",
+            "kut"
+        ]
+    ],
+    "NurseIDS6": [
+        "TX",
+        [
+            "",
+            "LxAM"
+        ]
+    ],
+    "NurseIDS7": [
+        "TX",
+        [
+            "ArATArR .",
+            "Lo "
+        ]
+    ],
+    "NurseIDS8": [
+        "TX",
+        [
+            "A",
+            "k"
+        ]
+    ],
+    "NurseIDS9": [
+        "TX",
+        [
+            "AtftftftftAtAtAtAtAi ",
+            "km"
+        ]
+    ],
+    "NurseIDS10": [
+        "TX",
+        [
+            "\"1",
+            "k"
+        ]
+    ],
+    "NurseIDS11": [
+        "TX",
+        [
+            "ArtrA ."
+        ]
+    ],
+    "Parental1": [
+        "TX",
+        [
+            ".",
+            "py ay r p. R.",
+            "Cm"
+        ]
+    ],
+    "Parental2": [
+        "TX",
+        [
+            ".",
+            "200 ma Cindimycin in IOnt P .",
+            "fm"
+        ]
+    ],
+    "Parental3": [
+        "TX",
+        [
+            "a",
+            "fd"
+        ]
+    ],
+    "Parental4": [
+        "TX",
+        [
+            ".",
+            "fm"
+        ]
+    ],
+    "Parental5": [
+        "TX",
+        [
+            "am",
+            "Cm"
+        ]
+    ],
+    "Parental6": [
+        "TX",
+        [
+            "",
+            "f"
+        ]
+    ],
+    "Parental7": [
+        "TX",
+        [
+            "",
+            "Cmt"
+        ]
+    ],
+    "Parental8": [
+        "TX",
+        [
+            ".",
+            "fm"
+        ]
+    ],
+    "Parental9": [
+        "TX",
+        [
+            "a",
+            "fml"
+        ]
+    ],
+    "Parental10": [
+        "TX",
+        [
+            "am",
+            "C"
+        ]
+    ],
+    "Parental11": [
+        "TX",
+        [
+            "t"
+        ]
+    ],
+    "PhilHealthNo": [
+        "Checkbox",
+        false
+    ],
+    "PhilHealthYes": [
+        "Checkbox",
+        true
+    ],
+    "RemarksE1": [
+        "TX",
+        [
+            "a",
+            "C"
+        ]
+    ],
+    "RemarksE2": [
+        "TX",
+        [
+            "AtA ",
+            "wr"
+        ]
+    ],
+    "RemarksE3": [
+        "TX",
+        [
+            "r.",
+            "a"
+        ]
+    ],
+    "RemarksE4": [
+        "TX",
+        [
+            "mQuQ<",
+            "w"
+        ]
+    ],
+    "RemarksE5": [
+        "TX",
+        [
+            "It",
+            "#"
+        ]
+    ],
+    "RemarksE6": [
+        "TX",
+        [
+            "",
+            "b"
+        ]
+    ],
+    "RemarksE7": [
+        "TX",
+        [
+            "l",
+            "w"
+        ]
+    ],
+    "RemarksE8": [
+        "TX",
+        [
+            "mQuxQ",
+            "w"
+        ]
+    ],
+    "RemarksE9": [
+        "TX",
+        [
+            "",
+            "b"
+        ]
+    ],
+    "RemarksE10": [
+        "TX",
+        [
+            "mQuQ",
+            "wt"
+        ]
+    ],
+    "RemarksP1": [
+        "TX",
+        [
+            "t.",
+            "# caf Ap",
+            "tr"
+        ]
+    ],
+    "RemarksP2": [
+        "TX",
+        [
+            "",
+            "# bp 19 nan tra#y .",
+            "y",
+            "ti"
+        ]
+    ],
+    "RemarksP3": [
+        "TX",
+        [
+            "a e",
+            "w"
+        ]
+    ],
+    "RemarksP4": [
+        "TX",
+        [
+            "m",
+            "t"
+        ]
+    ],
+    "RemarksP5": [
+        "TX",
+        [
+            "anIn",
+            "bt"
+        ]
+    ],
+    "RemarksP6": [
+        "TX",
+        [
+            "AtA ",
+            "w"
+        ]
+    ],
+    "RemarksP7": [
+        "TX",
+        [
+            "Ar ",
+            "b"
+        ]
+    ],
+    "RemarksP8": [
+        "TX",
+        [
+            "amrt",
+            "L"
+        ]
+    ],
+    "RemarksP9": [
+        "TX",
+        [
+            "AH",
+            "L"
+        ]
+    ],
+    "RemarksP10": [
+        "TX",
+        [
+            "mt.",
+            "C"
+        ]
+    ],
+    "RemarksP11": [
+        "TX",
+        [
+            "ae"
+        ]
+    ],
+    "RemarksS1": [
+        "TX",
+        [
+            "a",
+            "a"
+        ]
+    ],
+    "RemarksS2": [
+        "TX",
+        [
+            "",
+            "at"
+        ]
+    ],
+    "RemarksS3": [
+        "TX",
+        [
+            "muQ",
+            "a"
+        ]
+    ],
+    "RemarksS4": [
+        "TX",
+        [
+            "m.",
+            "w"
+        ]
+    ],
+    "RemarksS5": [
+        "TX",
+        [
+            "pu",
+            "aor"
+        ]
+    ],
+    "RemarksS6": [
+        "TX",
+        [
+            "m",
+            "a."
+        ]
+    ],
+    "RemarksS7": [
+        "TX",
+        [
+            "a",
+            "a"
+        ]
+    ],
+    "RemarksS8": [
+        "TX",
+        [
+            "ret",
+            "w."
+        ]
+    ],
+    "RemarksS9": [
+        "TX",
+        [
+            "",
+            "tr"
+        ]
+    ],
+    "RemarksS10": [
+        "TX",
+        [
+            "re",
+            "#"
+        ]
+    ],
+    "RemarksS11": [
+        "TX",
+        []
+    ],
+    "Supplement1": [
+        "TX",
+        [
+            ".",
+            "Cifiein"
+        ]
+    ],
+    "Supplement2": [
+        "TX",
+        [
+            "a.&.&....&oQ",
+            "C"
+        ]
+    ],
+    "Supplement3": [
+        "TX",
+        [
+            ".",
+            "C"
+        ]
+    ],
+    "Supplement4": [
+        "TX",
+        [
+            "a",
+            "Cm"
+        ]
+    ],
+    "Supplement5": [
+        "TX",
+        [
+            ".",
+            "C"
+        ]
+    ],
+    "Supplement6": [
+        "TX",
+        [
+            "a.",
+            "Cm"
+        ]
+    ],
+    "Supplement7": [
+        "TX",
+        [
+            "",
+            "Cm"
+        ]
+    ],
+    "Supplement8": [
+        "TX",
+        [
+            "a.",
+            "Cm"
+        ]
+    ],
+    "Supplement9": [
+        "TX",
+        [
+            ".",
+            "Cm."
+        ]
+    ],
+    "Supplement10": [
+        "TX",
+        [
+            "",
+            "Cm"
+        ]
+    ],
+    "Supplement11": [
+        "TX",
+        [
+            "a"
+        ]
+    ],
+    "Surname": [
+        "TX",
+        [
+            "RKNDtNtrhaD",
+            "mnm"
+        ]
+    ],
+    "TimeGivenE1": [
+        "TX",
+        [
+            "mm .",
+            "LmQmQmQmGmQmQmQmQ<"
+        ]
+    ],
+    "TimeGivenE2": [
+        "TX",
+        [
+            "AtA ",
+            "KQmQmQmQmGaQ"
+        ]
+    ],
+    "TimeGivenE3": [
+        "TX",
+        [
+            "mxmmm",
+            "Kmnt"
+        ]
+    ],
+    "TimeGivenE4": [
+        "TX",
+        [
+            "me",
+            "bQ<"
+        ]
+    ],
+    "TimeGivenE5": [
+        "TX",
+        [
+            "pm .",
+            "#"
+        ]
+    ],
+    "TimeGivenE6": [
+        "TX",
+        [
+            "mt",
+            "bu."
+        ]
+    ],
+    "TimeGivenE7": [
+        "TX",
+        [
+            "pmH",
+            "# "
+        ]
+    ],
+    "TimeGivenE8": [
+        "TX",
+        [
+            "pna",
+            "I"
+        ]
+    ],
+    "TimeGivenE9": [
+        "TX",
+        [
+            "m.",
+            "Lmo ."
+        ]
+    ],
+    "TimeGivenE10": [
+        "TX",
+        [
+            "#t",
+            "L."
+        ]
+    ],
+    "TimeGivenP1": [
+        "TX",
+        [
+            "KHAH",
+            "pix \" K turs",
+            "Ltit"
+        ]
+    ],
+    "TimeGivenP2": [
+        "TX",
+        [
+            "AtAi ",
+            "#y \" at thuy",
+            "Wm"
+        ]
+    ],
+    "TimeGivenP3": [
+        "TX",
+        [
+            "amns .",
+            "Km"
+        ]
+    ],
+    "TimeGivenP4": [
+        "TX",
+        [
+            "a.",
+            "Lmnm"
+        ]
+    ],
+    "TimeGivenP5": [
+        "TX",
+        [
+            "a",
+            "Km"
+        ]
+    ],
+    "TimeGivenP6": [
+        "TX",
+        [
+            "Aty",
+            "Kamunmns"
+        ]
+    ],
+    "TimeGivenP7": [
+        "TX",
+        [
+            "a",
+            "Km"
+        ]
+    ],
+    "TimeGivenP8": [
+        "TX",
+        [
+            "AtAi ",
+            "Km"
+        ]
+    ],
+    "TimeGivenP9": [
+        "TX",
+        [
+            "Art ",
+            "Km"
+        ]
+    ],
+    "TimeGivenP10": [
+        "TX",
+        [
+            "A",
+            "Kmt"
+        ]
+    ],
+    "TimeGivenP11": [
+        "TX",
+        [
+            "w"
+        ]
+    ],
+    "TimeGivenS1": [
+        "TX",
+        [
+            "H",
+            "Km "
+        ]
+    ],
+    "TimeGivenS2": [
+        "TX",
+        [
+            "xmo",
+            "#m "
+        ]
+    ],
+    "TimeGivenS3": [
+        "TX",
+        [
+            "fe .",
+            "#t"
+        ]
+    ],
+    "TimeGivenS4": [
+        "TX",
+        [
+            "pnm .",
+            "#Du"
+        ]
+    ],
+    "TimeGivenS5": [
+        "TX",
+        [
+            "pmn .",
+            "KmQ"
+        ]
+    ],
+    "TimeGivenS6": [
+        "TX",
+        [
+            "p",
+            "Kem."
+        ]
+    ],
+    "TimeGivenS7": [
+        "TX",
+        [
+            "rmiQ",
+            "bQmQmQmQ<"
+        ]
+    ],
+    "TimeGivenS8": [
+        "TX",
+        [
+            "A",
+            "Kms ."
+        ]
+    ],
+    "TimeGivenS9": [
+        "TX",
+        [
+            "tAuni .",
+            "tw"
+        ]
+    ],
+    "TimeGivenS10": [
+        "TX",
+        [
+            "#n",
+            "wuw"
+        ]
+    ],
+    "TimeGivenS11": [
+        "TX",
+        [
+            "#"
+        ]
+    ],
+    "WardUnit": [
+        "TX",
+        [
+            "AH",
+            "#"
+        ]
+    ]
+}

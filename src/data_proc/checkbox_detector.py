@@ -73,12 +73,12 @@ def checkbox_crop(img_binary,cnt):
     img_crop = img_binary_copy[tl_y:br_y, tl_x:br_x]
     
     search_area_3d = cv2.cvtColor(img_binary_copy,cv2.COLOR_GRAY2RGB)
-    cv2.rectangle(search_area_3d, (tl_x,tl_y), (br_x,br_y) ,(255,0,0), 1)
+    cv2.rectangle(search_area_3d, (tl_x,tl_y), (br_x,br_y) ,(255,0,255), 1)
 
     return img_crop, search_area_3d
 
 if __name__ == "__main__":
-    filename = 'samples/PhilHealthNo.png'
+    filename = 'samples4/page4data02_PreAnesthetic2Yes.png'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
@@ -86,5 +86,6 @@ if __name__ == "__main__":
 
     print(is_checked)
     cv2.imshow('Warped', img_search)
+    cv2.imwrite('samples4/new.png',img_search)
 
     

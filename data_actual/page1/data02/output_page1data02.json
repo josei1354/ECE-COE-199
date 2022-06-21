@@ -1,0 +1,225 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "SIAHEISC FACOACOASCIAINCO \" \"am nures - mac bcies",
+            "#EOT vuTa Dures ",
+            "m."
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "pckcCAQ",
+            "KEMAIA LRAEF FATADANE",
+            "e."
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "port .",
+            "AhAHTH",
+            "Kim"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "ANKNKKN",
+            "trum in \" #",
+            "Wmu"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "\"",
+            "AR TPR I p xo-cars S0RM",
+            "# Rurmwurt",
+            "\"."
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "AN",
+            "# ",
+            "tkAQAQmQmQnQqMT"
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "A-isjs.",
+            "#",
+            "w"
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "Allt",
+            "# t #"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "I Pisien \" Iie Gicrimeriove marh feat core sor wurn consurce i ber",
+            "msm"
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "mtmo ",
+            "# t \" # #n"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            "\"",
+            "#",
+            "mimn"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "wht L9LAL GATARSNON LIvxand vsels ",
+            "normunc rceoun isuer noc save teem ent . rcuse entran",
+            "mqqmKmmmmnrQrQ"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "#f "
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "mQ.Q.Q.Q.Q.Q.Q.KKKQQQQQQhQ",
+            "#uth #x",
+            "# rumu",
+            "t"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "ne",
+            "\"",
+            "...m.m.m.m.mmmmmmmmmmn.",
+            "I.A TA , ( A DIEOHARGE"
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "mQrQ",
+            "rctrerc scurese , piuxt parprent conumtc tuere . ( I cunox , ( I e",
+            "mmininQ"
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "\"#"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "AxqKQKQqQ",
+            "# ",
+            "# trun"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "am .",
+            "# # #",
+            "#-in"
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "\"utmrkith",
+            "LiDi"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "Amb .",
+            "pitigsinx ExNt Ah"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "enmimi",
+            "to AENROKAGIE HETFS"
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "atun ",
+            "#",
+            "Aumo"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            "",
+            "MindMer of DESATUEATOHS AND S1MPTOM ",
+            "\"."
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "AHA",
+            "# #",
+            "#N"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "menm",
+            "# "
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "#",
+            "rth"
+        ]
+    ]
+}

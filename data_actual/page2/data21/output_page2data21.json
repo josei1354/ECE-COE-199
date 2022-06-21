@@ -1,0 +1,101 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        [
+            "",
+            "#",
+            "DAETHKA , BEAHATIAN E",
+            ""
+        ]
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        [
+            ".",
+            "&",
+            "m&",
+            "Iyu#ERAE"
+        ]
+    ],
+    "CourseInTheWards": [
+        "TX",
+        [
+            "CIEIGIPIGAI-I-IAGI-A\"T",
+            "O3) 8 3 ( RDTIA HOME PeR REANEST",
+            "y",
+            "muy",
+            "A3(Ox ( ORLA S1A RAHNDALDA ",
+            "osIorlsong patient pomrted as supprementatiow initiated"
+        ]
+    ],
+    "DischargeDate": [
+        "TX",
+        [
+            "# \" # # \" i be be b",
+            "r",
+            "# t I A"
+        ]
+    ],
+    "DischargeTime": [
+        "TX",
+        [
+            "# # it wu wu",
+            "#",
+            "#y \" "
+        ]
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        [
+            "&.",
+            "Setercessers",
+            "ARE Fype I EROM M0NE-COvIr SuwoRorE"
+        ]
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        [
+            "mr",
+            "283,0,) -orD MB 103 MET 32 Pe7",
+            "qHAH #",
+            "c"
+        ]
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        [
+            "ad md Selh",
+            "",
+            "# I mua I a"
+        ]
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        [
+            "# a "
+        ]
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        false
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        [
+            "TIR-Im",
+            "Llilit"
+        ]
+    ]
+}

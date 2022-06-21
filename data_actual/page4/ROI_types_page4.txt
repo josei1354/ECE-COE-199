@@ -50,7 +50,7 @@ NoUnitsBloodXMatched TX 0 0
 NoUnitsFreshBlood TX 0 0
 NoUnitsRBC TX 0 0
 NoUnitsRBCXMatched TX 0 0
-NurseInChare TX 0 0
+NurseInCharge TX 0 0
 Operation TX 0 0
 OralCareNo CB 
 OralCareYes CB

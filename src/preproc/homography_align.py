@@ -22,6 +22,20 @@ def preproc_align_image(orig_img_gray, orig_corners, dimension_ref):
     img_warp = cv2.warpPerspective(orig_img_gray, H, (orig_img_gray.shape[1],orig_img_gray.shape[0]) )
 
     new_corners_list = new_corners.tolist()
+
+    """
+    img_warp2 = orig_img_gray.copy()
+    img_warp2 = cv2.cvtColor(img_warp2,cv2.COLOR_GRAY2RGB)
+
+    cv2.drawContours(img_warp2, np.array([orig_corners]), -1, (0, 255, 0), 10)
+    cv2.drawContours(img_warp2, np.array([new_corners]), -1, (255, 0, 0), 10)
+    cv2.imwrite("new1.jpg",img_warp2)
+
+    img_warp3 = img_warp.copy()
+    img_warp3 = cv2.cvtColor(img_warp3,cv2.COLOR_GRAY2RGB)
+    cv2.drawContours(img_warp3, np.array([new_corners]), -1, (255, 0, 0), 10)
+    cv2.imwrite("new2.jpg",img_warp3)
+    """
     
     img_crop = img_warp[new_corners_list[0][1]:new_corners_list[3][1], new_corners_list[0][0]:new_corners_list[1][0]]
 
@@ -87,8 +101,8 @@ if __name__ == "__main__":
     filename3 = 'samples/sample3.jpg' #page4
     filename4 = 'samples/sample4.jpg' #page3
 
-    file_used = 'testp2.jpg'
-    demension_used = dimension_ref_p4
+    file_used = 'samples/garp1.jpg'
+    demension_used = dimension_ref_p1
     
     orig_img_color = cv2.imread(file_used,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(file_used,cv2.IMREAD_GRAYSCALE)

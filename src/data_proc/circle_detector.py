@@ -16,7 +16,8 @@ def encircle_main_detec(img_gray, debug_mode, min_area, max_area):
     largest_cnt = encircle_get_largest_contour(contours_filtered)
 
     img_gray = cv2.cvtColor(img_gray,cv2.COLOR_GRAY2RGB)
-    cv2.drawContours(img_gray, [largest_cnt], -1, (0,255,0), 1)
+    cv2.drawContours(img_gray, contours_filtered, -1, (0,255,0), 1)
+    cv2.drawContours(img_gray, [largest_cnt], -1, (255,0,255), 2)
 
     has_circle = encircle_check_area(largest_cnt, min_area, max_area, orig_height*orig_width, debug_mode)
 
@@ -84,14 +85,23 @@ def encircle_get_largest_contour(contours):
 
 
 if __name__ == "__main__":
-    filename = 'samples/AdmissionTimePM.png'
+    filename = 'samples4/page1data20_AdmissionTimePM.png'
     orig_img_color = cv2.imread(filename,cv2.IMREAD_COLOR)
     orig_img_gray = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
     debug_mode = True
-    has_circle, img_search = encircle_main_detec(orig_img_gray,debug_mode, 0.25, 0.8)
+    has_circle, img_search = encircle_main_detec(orig_img_gray,debug_mode, 0.17, 0.8)
+
+    text_color = (255,0,0)
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    font_scale = 0.5
+    img_search = cv2.putText(img_search,str(has_circle), (0,orig_img_gray.shape[0]),
+                             font, font_scale, text_color,1,cv2.LINE_AA)
+    
     print(has_circle)
     
     cv2.imshow('Warped', img_search)
+
+    cv2.imwrite("samples4/new.png",img_search)
 
     

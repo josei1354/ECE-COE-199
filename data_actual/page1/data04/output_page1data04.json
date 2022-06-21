@@ -1,0 +1,222 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "tehmnic exciaonithclasuns-evechert",
+            "Marh fisth tede krase-"
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "",
+            "creditation No.: ( PHIC ) HO,0a s9i8",
+            "Ci"
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "pmt",
+            "Admission Dake , 9a l a a lavad.",
+            "Cl"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "A-",
+            "Fixs . A \" #",
+            "n"
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "mm.",
+            "Resviratory distress . central nervous sustem matforn",
+            ""
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "purQoQ",
+            "f ",
+            "u"
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "Frfi-.",
+            "fo #",
+            "ie."
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "AtAtA ",
+            "fy"
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            "t",
+            "onth onst-eovidi sevese intetien twek exedencrseats bre sungterns",
+            "m"
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "f-mF.Am",
+            "PMtrttuhy",
+            "# M8 . B y fo f ( 7"
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            "m.",
+            "Shortness of breath . Chest oain e vomitina , backeala healacke",
+            "If",
+            "ms "
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "Adunamic erecerdivn . distut heact sevde- abvermal rate",
+            "\"iver viseasemefenin",
+            "sf"
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "D9 ) 30 I soas"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "f..",
+            "ptatranie ",
+            "CGetediet"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            "ThrlDiaiteies",
+            "-Items brbasemn."
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "Dviestere , Du#kcLaquk Dcld TrE",
+            ""
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "\"# #"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "f...",
+            " I Ao touvtep",
+            "Kmmnnnnn"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "r.",
+            "ptavatsiana",
+            "CWltaiel."
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "AopAl",
+            "Clidtin"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "(I.T.-.T.TR.-Ia.I...\"A",
+            "pilippire Cenonal Hospitar"
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "p persrlaule defuielt y",
+            "theaxLksaitbnbdntissestiare"
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "aim-smnmro.",
+            "ft R#",
+            "Lor"
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            ".",
+            "anacement of sainanhstoten ",
+            "MNy.",
+            "Wy",
+            "mn"
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "fy",
+            "t."
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "#"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "y #y ",
+            "wt"
+        ]
+    ]
+}

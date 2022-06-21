@@ -1,0 +1,103 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        [
+            "IALMURLHAELAG",
+            "imr"
+        ]
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        [
+            "",
+            "m",
+            "n",
+            "# # #"
+        ]
+    ],
+    "CourseInTheWards": [
+        "TX",
+        [
+            "m",
+            "sloglsoz? Hont pea REAUEST",
+            "slortr3 slP IN-uGATON . SIP TRACHE",
+            "# xf",
+            "GlorlsoreD pAMIent AomrTEo . or suppewtatiow ivitiated",
+            "\" #xKxK \"M K IkxKet "
+        ]
+    ],
+    "DischargeDate": [
+        "TX",
+        [
+            "-",
+            "# f # f # i"
+        ]
+    ],
+    "DischargeTime": [
+        "TX",
+        [
+            "RULm WNELNUUL ",
+            "o",
+            "# a #"
+        ]
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        [
+            "",
+            "im",
+            "Sereculasen",
+            "am.",
+            "ARF MPE LEREOGCTCTIERCNE"
+        ]
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        [
+            ".",
+            ".",
+            "8 ,o1 I3OT I HOD lo8 HET 97 ReT 1z2 woe ,",
+            "s 1 7o L A M7 E 7 B 0",
+            "H ",
+            "etrentostonontetmentisonostietinamGs teC PAhshisfecausihAon Giopsieta ,",
+            "Cininm"
+        ]
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        [
+            "nr",
+            "# f # P #R"
+        ]
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        [
+            "# # a # o"
+        ]
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        false
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        [
+            "f-",
+            "#p At #AEHEi4 ",
+            "Cltihl."
+        ]
+    ]
+}

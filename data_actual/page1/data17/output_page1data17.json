@@ -1,0 +1,234 @@
+{
+    "Abdomen": [
+        "TX",
+        [
+            "a .a 1 1d 1' \" vi",
+            "",
+            "SoRT vkE a moctl s TENDOR UNE A TOrR",
+            ""
+        ]
+    ],
+    "AccreditationNo": [
+        "TX",
+        [
+            "C.",
+            "credltiation No.: CPHIED A84l000l0 .",
+            "mshm",
+            "am."
+        ]
+    ],
+    "AdmissionDate": [
+        "TX",
+        [
+            "Iam.mannf ",
+            "AMiSsTON Nake: B4( 1 ( 2D27",
+            "ali"
+        ]
+    ],
+    "AdmissionTime": [
+        "TX",
+        [
+            "Angimn",
+            "yptun in #y",
+            "mr "
+        ]
+    ],
+    "AdmissionTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "AdmissionTimePM": [
+        "Encirclement",
+        false
+    ],
+    "AdmittingDiagnosis": [
+        "TX",
+        [
+            "Fr",
+            "DEPRESION - AOUTE REDIRATO",
+            "."
+        ]
+    ],
+    "Age": [
+        "TX",
+        [
+            "famtu",
+            "#",
+            "mnmnm"
+        ]
+    ],
+    "Barangay": [
+        "TX",
+        [
+            "Fr.-F.m-.",
+            "#y ",
+            ""
+        ]
+    ],
+    "BP": [
+        "TX",
+        [
+            "\" #f . # \""
+        ]
+    ],
+    "BriefHistory": [
+        "TX",
+        [
+            ".5.Q.",
+            "MNFECTDD WITN COUDODIAREANEA ",
+            ""
+        ]
+    ],
+    "CaseNumber": [
+        "TX",
+        [
+            "C-.LT.-I.arThATAI",
+            "# Aa . a A Aolt tirt",
+            "Aty",
+            ""
+        ]
+    ],
+    "ChiefComplaint": [
+        "TX",
+        [
+            ".",
+            "#",
+            "op tip ax Pesye.",
+            "my",
+            "Iumr"
+        ]
+    ],
+    "CVS": [
+        "TX",
+        [
+            "au wo a a.1m\"",
+            "",
+            "ARORKNANO CHEST ExplUsiON . HbIt HEAT RATEC",
+            ""
+        ]
+    ],
+    "DateReceived": [
+        "TX",
+        [
+            "9 ) I 7 rgnp"
+        ]
+    ],
+    "Female": [
+        "Checkbox",
+        false
+    ],
+    "FirstName": [
+        "TX",
+        [
+            "Im.im-",
+            "B't A",
+            "Ci"
+        ]
+    ],
+    "GU": [
+        "TX",
+        [
+            ".m.mmmmn.",
+            "(. I MONEYTAOS , ( \"J WkE A vIROIN",
+            ""
+        ]
+    ],
+    "HEENT": [
+        "TX",
+        [
+            "imiei",
+            "ANTIGACFERIAL AGENT . ( ) ROOERS - ( . I REiuw",
+            ""
+        ]
+    ],
+    "HR": [
+        "TX",
+        [
+            "MHAHNHNHN",
+            "fy Fy"
+        ]
+    ],
+    "LastName": [
+        "TX",
+        [
+            "f...",
+            "A"
+        ]
+    ],
+    "Male": [
+        "Checkbox",
+        true
+    ],
+    "MiddleName": [
+        "TX",
+        [
+            "C-m.mmm",
+            "#t py #y ",
+            "Citi."
+        ]
+    ],
+    "Municipality": [
+        "TX",
+        [
+            "Ay",
+            "f # 4 y #.",
+            "aeia"
+        ]
+    ],
+    "NameOfHospital": [
+        "TX",
+        [
+            "TArOCGTAmIATNial-Mar.mho-Brma -a",
+            "piAIUPDINE GENEMAL Hosp Ak",
+            ""
+        ]
+    ],
+    "NeuroExamination": [
+        "TX",
+        [
+            "o\" I DUNe\" is \" N5e is I al",
+            "AouRy woluAh PE ECr ",
+            ""
+        ]
+    ],
+    "Province": [
+        "TX",
+        [
+            "axmrarmQ&Q&Q&.&.Q",
+            "# #",
+            "Cmsa."
+        ]
+    ],
+    "ReasonOfAdmission": [
+        "TX",
+        [
+            ".",
+            "# #t rlt Xx4",
+            "."
+        ]
+    ],
+    "RR": [
+        "TX",
+        [
+            "ay",
+            "AHNHN",
+            " #",
+            "am"
+        ]
+    ],
+    "Temp": [
+        "TX",
+        [
+            "kemmmmmmmmmmnun",
+            "oy ",
+            "stn"
+        ]
+    ],
+    "ZipCode": [
+        "TX",
+        [
+            "op o py",
+            "art"
+        ]
+    ]
+}

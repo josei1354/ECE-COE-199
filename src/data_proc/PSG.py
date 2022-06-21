@@ -206,30 +206,28 @@ if __name__ == '__main__':
 
     params = []
 
-    img_crops = psg_crop_all(img_gray, params)
-
-    #orig_h, orig_w = img_gray.shape
-    #boundRect = psg_get_bound_boxes(img_gray)
-    #boundRect = psg_segment_all(boundRect, orig_h, orig_w)
+    #img_crops = psg_crop_all(img_gray, params)
+    orig_h, orig_w = img_gray.shape
+    boundRect = psg_get_bound_boxes(img_gray)
+    boundRect = psg_segment_all(boundRect, orig_h, orig_w)
     
-    img_crops = psg_binarize_all(img_crops)
+    #img_crops = psg_binarize_all(img_crops)
 
-    print(len(img_crops))
+    #print(len(img_crops))
 
-    num_img_grays = round(len(img_crops)/2)
+    #num_img_grays = round(len(img_crops)/2)
 
-    for i in range(num_img_grays):
-        cv2.imwrite("samples/PSG_OUT_"+str(i)+".png", img_crops[i])
-        cv2.imwrite("samples/PSG_OUT_"+str(i)+"b"+".png", img_crops[i+num_img_grays])
+    #for i in range(num_img_grays):
+        #cv2.imwrite("samples/PSG_OUT_"+str(i)+".png", img_crops[i])
+        #cv2.imwrite("samples/PSG_OUT_"+str(i)+"b"+".png", img_crops[i+num_img_grays])
         
     
     #print(len(boundRect))
 
-    print("Here")
+    #print("Here")
 
-    #for i in range(len(boundRect)):
-    #    cv2.rectangle(img, (int(boundRect[i][0]), int(boundRect[i][1])), \
-    #        (int(boundRect[i][0]+boundRect[i][2]), int(boundRect[i][1]+boundRect[i][3])), (0,255,0), 2)
+    for i in range(len(boundRect)):
+        cv2.rectangle(img, (int(boundRect[i][0]), int(boundRect[i][1])), (int(boundRect[i][0]+boundRect[i][2]), int(boundRect[i][1]+boundRect[i][3])), (0,255,0), 2)
 
     #box1 = boundRect[9]
     #box2 = boundRect[8]
@@ -246,9 +244,9 @@ if __name__ == '__main__':
     #else:
     #    print("No Intersection")
 
-    #cv2.imshow('Original', img)
+    cv2.imshow('Original', img)
     #cv2.imwrite("samples/PSG_out.png", img)
 
-    #cv2.waitKey(0)
-    #cv2.destroyAllWindows()
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 

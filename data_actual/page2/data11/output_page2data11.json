@@ -1,0 +1,96 @@
+{
+    "AttendingPhysician": [
+        "TX",
+        [
+            "",
+            "SA FUAN . ANRLA G ."
+        ]
+    ],
+    "ConditionOfDischarge": [
+        "TX",
+        [
+            ".m&m",
+            ".m",
+            ".",
+            "( AH"
+        ]
+    ],
+    "CourseInTheWards": [
+        "TX",
+        [
+            "",
+            "O3 ) 03( 2O3LA HOME PER KEAUEST",
+            "dalor 203LI sp INrUOATION , SP TRACHEOSTOMY",
+            "psiorl-od ptIENt AOmIHTEO Dr supplementation inItiater"
+        ]
+    ],
+    "DischargeDate": [
+        "TX",
+        [
+            "#",
+            "(7 ) 87) rop"
+        ]
+    ],
+    "DischargeTime": [
+        "TX",
+        [
+            "w rem h kx #ne.",
+            "#",
+            "# ey"
+        ]
+    ],
+    "DischargeTimeAM": [
+        "Encirclement",
+        false
+    ],
+    "DischargeTimePM": [
+        "Encirclement",
+        true
+    ],
+    "FinalDiagnosis": [
+        "TX",
+        [
+            ".",
+            "FEEICeNsel-",
+            "m&",
+            "ARE TVRE L FROM KONG-COUIC. . SMNCRCME"
+        ]
+    ],
+    "PertinentLabFindings": [
+        "TX",
+        [
+            ".",
+            "osporl -orxf tab ios 1cT 32 prtel wacis w to Lel nit 82 00",
+            "( #",
+            "Cl"
+        ]
+    ],
+    "SurgicalOperationDate": [
+        "TX",
+        [
+            "Aro",
+            "U 3 ) a xf rou"
+        ]
+    ],
+    "SurgicalOperationTime": [
+        "TX",
+        [
+            "f A Ay"
+        ]
+    ],
+    "SurgicalOperationTimeAM": [
+        "Encirclement",
+        true
+    ],
+    "SurgicalOperationTimePM": [
+        "Encirclement",
+        false
+    ],
+    "TypeOfAnesthesia": [
+        "TX",
+        [
+            "ramm",
+            "LGtirt"
+        ]
+    ]
+}
