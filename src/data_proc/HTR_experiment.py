@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     curr_dir = os.getcwd()
     
-    orig_dir = "lines"
+    orig_dir = "lines" #Change this line only
     
     os.chdir(curr_dir + "\\" + orig_dir)
     dirs = os.listdir()
